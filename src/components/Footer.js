@@ -1,5 +1,5 @@
 import logo from '../images/logo.png';
-import facebookicon from '../images/facebookicon.png';
+import facebookicon from '../images/icons/facebookicon.png';
 import AttributionsModal from './AttributionsModal.js';
 
 import { Link } from "react-router-dom";

@@ -3,14 +3,14 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import { Link } from "react-router-dom";
 
-import iconSupplements from '../images/iconSupplements.png';
-import iconInjury from '../images/iconInjury.png';
-import iconIllness from '../images/iconIllness.png';
-import iconSkin from '../images/iconSkin.png';
-import iconDisinfectant from '../images/iconDisinfectant.png';
-import iconMedicalTools from '../images/iconMedicalTools.png';
-import boldRedMedicalTools from '../images/boldRedMedicalTools.png';
-import facebookicon from '../images/facebookicon.png';
+import iconSupplements from '../images/icons/iconSupplements.png';
+import iconInjury from '../images/icons/iconInjury.png';
+import iconIllness from '../images/icons/iconIllness.png';
+import iconSkin from '../images/icons/iconSkin.png';
+import iconDisinfectant from '../images/icons/iconDisinfectant.png';
+import iconMedicalTools from '../images/icons/iconMedicalTools.png';
+import boldRedMedicalTools from '../images/icons/boldRedMedicalTools.png';
+import facebookicon from '../images/icons/facebookicon.png';
 
 
 const fatihicon = 'https://www.flaticon.com/free-icons/supplement';

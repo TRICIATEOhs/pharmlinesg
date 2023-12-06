@@ -1,4 +1,4 @@
-import logo from '../../images/licenseBadge.png';
+import logo from '../../images/icons/licenseBadge.png';
 import bannerimg from '../../images/bannerimg.png';
 import Button from 'react-bootstrap/Button';
 

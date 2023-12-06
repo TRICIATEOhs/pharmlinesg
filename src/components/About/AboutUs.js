@@ -2,7 +2,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
 import MainNavbar from '../MainNavbar.js';
-import aboutMembersJson from "../../data/aboutMembers.json";
+import aboutMembersJson from "../../data/aboutMembers.js";
 
 import teamphoto from '../../images/teamphoto.jpg';
 
