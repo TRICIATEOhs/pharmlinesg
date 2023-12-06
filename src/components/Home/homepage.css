@@ -1,0 +1,198 @@
+.banner-img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+/*This is so that the description does not span too long across the whole page*/
+.description {
+    padding: 0 80px;
+}
+
+/*Icon sizing*/
+.mini-icon {
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+}
+
+.icon {
+    height: 36px;
+    width: 36px;
+}
+/*==========*/
+
+/*Grey circle behind icon*/
+.icon-btn {
+    margin: 16px 0;
+    background: #F5F5F5;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 12px;
+    display: inline-block;
+    text-align: center;
+}
+
+.icon-btn:hover {
+    background: #cc0000;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.caption {
+    display: block;
+}
+
+.icon-btn:hover + .caption {
+    color: #cc0000;
+}
+
+.cat-button{
+    margin: auto;
+}
+
+.cat-item {
+    font-weight: 500;
+}
+/*==========*/
+
+/*Hide show different icons when button hover*/
+.icon-btn .supplements-hover,  .icon-btn .injury-hover, .icon-btn .illness-hover, .icon-btn .skin-hover,
+.icon-btn .disinfectant-hover, .icon-btn .tools-hover {
+    display: none;
+  }
+.icon-btn:hover .supplements-hover, .icon-btn:hover .injury-hover, .icon-btn:hover .illness-hover, .icon-btn:hover .skin-hover,
+.icon-btn:hover .disinfectant-hover, .icon-btn:hover .tools-hover {
+    display: block;
+    top: -50px;
+}
+.icon-btn:hover .supplements-main, .icon-btn:hover .injury-main, .icon-btn:hover .illness-main, .icon-btn:hover .skin-main,
+.icon-btn:hover .disinfectant-main, .icon-btn:hover .tools-main {
+    display:none;
+}
+/*==========*/
+
+
+/*New Products*/
+
+
+.product-div {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    background-color: none;
+}
+  
+.product-container {
+    padding: 0 6vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    background-color: none;
+}
+
+.product-container::-webkit-scrollbar {
+    display: none;
+}
+
+.product-card {
+    flex: 0 0 auto;
+    width: 200px;
+    height: 300px;
+    margin-right: 40px;
+    text-align:center;
+}
+
+.product-image {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.product-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-info {
+    width: auto;
+    height: auto;
+}
+  
+.product-brand {
+    font-weight: 500;
+    margin-bottom:4px;
+}
+
+.product-category {
+    font-size: 0.75rem;
+    color: #000000;
+    opacity: 60%;
+    letter-spacing: normal;
+    margin: 0;
+} 
+
+.pre-btn,
+.nxt-btn {
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #f5f5f5 100%);
+    cursor: pointer;
+    z-index: 8;
+}
+  
+.pre-btn {
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.nxt-btn {
+    right: 0;
+}
+
+.pre-btn img,
+.nxt-btn img {
+    opacity: 0.2;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+    opacity: 1;
+}
+  /*==========*/
+  
+
+/*Be our member*/
+.member .card {
+    margin-top: 24px;
+    --bs-card-border-color: none;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+}
+
+.member img {
+    height: 250px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.member .secondarybg {
+    border-radius: 0px;
+    border-left: 8px solid #cc0000;
+}
+
+
+/*==========*/
+
+

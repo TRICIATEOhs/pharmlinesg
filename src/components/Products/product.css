@@ -1,0 +1,153 @@
+.itemContainer {
+    margin-bottom: 60px;
+}
+
+.itemCard {
+    margin: 40px 0;
+}
+
+.itemImage img {
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+}
+
+.itemInfo {
+    width: auto;
+    height: auto;
+}
+
+.itemInfo a:hover {
+    text-decoration: none;
+}
+
+.itemName {
+    border-bottom: 2px solid #212427;
+    padding-bottom: 8px;
+    font-weight: 500;
+
+}
+
+.itemDesc {
+    font-size: 0.75rem;
+    margin: 0;
+    color: #000000;
+    opacity: 60%;
+}
+
+.itemActive {
+    text-decoration: underline;
+    font-weight: 500;
+    text-underline-offset: 0.5em;
+} 
+
+.product ul {
+    list-style-type: none;
+    
+}
+
+.product li {
+    margin-bottom: 24px;
+}
+
+.product a {
+    color: #212427;
+}
+
+.singleItem .accordion-button::after {
+    background-image: none;
+}
+
+.accordion {
+    --bs-accordion-active-bg: none;
+    --bs-accordion-active-color: #cc0000;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-border-color: none;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.accordion .accordion-button {
+    font-weight:500;
+}
+
+/* The Modal (background) */
+  .itemModal p {
+    margin-top: 0;
+}
+
+
+/* The Close Button */
+.close {
+    color: #212427;
+    float: right;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.close:hover,
+.close:focus {
+    color: #cc0000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modalName {
+    margin-bottom: 40px;
+}
+
+.modalImage {
+    text-align:center;
+}
+
+.modalImage img {
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+    margin-bottom: 40px;
+}
+
+.modalInfo {
+    height: 100%;
+}
+
+.modalInfo .accordion-body {
+    background-color: #f5f5f5;
+    border-left: 6px solid #cc0000;
+    border-top: 1px solid #212427;
+}
+
+
+.itemModal .modal-dialog {
+    float:right;
+    margin: 0;
+    transition: none;
+    width: 100%;
+}
+
+.itemModal .modal-content {
+    min-height: 100vh;
+}
+
+/*Remove the slide down effect from the modal*/
+.modal.fade .modal-dialog{
+    transition: none;
+} 
+
+
+.catItem a:hover, .catItem a:active, .catItem .itemActive {
+    color: #cc0000;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.backToTop {
+    position: fixed;  
+    width: 100%; 
+    left: 80%; 
+    bottom: 4rem; 
+    height: 24px; 
+    font-size: 3rem; 
+    z-index: 1; 
+    cursor: pointer; 
+}

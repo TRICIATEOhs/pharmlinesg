@@ -1,0 +1,54 @@
+.mini-intro {
+    margin: auto;
+}
+
+.about .mini-intro {
+    font-weight: 500;
+}
+
+.full-width img {
+    width: 100%;
+    height: 24rem;
+    object-fit: cover;
+}
+
+/*Profile*/
+.profile-card {
+    text-align:center;
+}
+
+.profile-image {
+    margin: auto;
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    overflow: hidden;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.profile-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-info {
+    width: auto;
+    height: auto;
+}
+
+.profile-name {
+    font-weight: 500;
+    margin-bottom:4px;
+}
+
+.profile-position {
+    font-size: 0.75rem;
+    color: #000000;
+    opacity: 45%;
+    letter-spacing: normal;
+    margin: 0;
+} 
+
+/*==========*/

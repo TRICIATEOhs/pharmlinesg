@@ -1,0 +1,23 @@
+.logo {
+    height: 32px;
+    width: auto;
+    margin-right: 24px;
+}
+
+.navbar {
+    margin: 24px 100px;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 1.5rem;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link.active {
+    color: #CC0000;
+}
+
+.nav-item > a:hover {
+    color:#CC0000;
+    text-decoration: none;
+}
