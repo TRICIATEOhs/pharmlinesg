@@ -26,12 +26,12 @@ import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename="/pharmlinesg">
       {/* <Router> */}
         <ScrollToTop />
         <Routes>
           <Route index element={<Home/>} />
-          <Route path="/" element={<Home/>} />
+          <Route path="" element={<Home/>} />
           <Route path="/about" element={<AboutUs/>} />
           <Route path='/products' element={<Products />}>
               <Route path=':productid' element={<ProductDetails />} />
