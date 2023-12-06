@@ -1,22 +1,24 @@
 {
   "files": {
     "main.css": "/pharmlinesg/static/css/main.7e1ad6e6.css",
-    "main.js": "/pharmlinesg/static/js/main.45cf1460.js",
+    "main.js": "/pharmlinesg/static/js/main.bf81f8db.js",
     "static/media/teamphoto.jpg": "/pharmlinesg/static/media/teamphoto.f7ea9c5c4fffb4e4629c.jpg",
     "static/media/bannerimg.png": "/pharmlinesg/static/media/bannerimg.847e3e2b5484a0bdf571.png",
     "static/media/spasmolyt.png": "/pharmlinesg/static/media/spasmolyt.5292a2f6163026d87bb9.png",
     "static/media/viartril.jpg": "/pharmlinesg/static/media/viartril.e45c87fb6fc8a8e49e8c.jpg",
     "static/media/cavinton.jpg": "/pharmlinesg/static/media/cavinton.1a9d736ed78e3f7357a0.jpg",
     "static/media/tocoq10-coenzyme.png": "/pharmlinesg/static/media/tocoq10-coenzyme.787c69e0ff79a093e45e.png",
+    "static/media/img2.jpg": "/pharmlinesg/static/media/img2.0d267fda224abcf14d1e.jpg",
     "static/media/dymista-nasal-spray.jpg": "/pharmlinesg/static/media/dymista-nasal-spray.71e1ad7f3d4407a8be39.jpg",
     "static/media/elidel-cream.jpg": "/pharmlinesg/static/media/elidel-cream.0919b100973935cef3db.jpg",
     "static/media/prospan.jpg": "/pharmlinesg/static/media/prospan.e5e3a27d906b2b2dd918.jpg",
+    "static/media/img1.jpg": "/pharmlinesg/static/media/img1.eb7dc3b3c2a866477fe9.jpg",
     "index.html": "/pharmlinesg/index.html",
     "main.7e1ad6e6.css.map": "/pharmlinesg/static/css/main.7e1ad6e6.css.map",
-    "main.45cf1460.js.map": "/pharmlinesg/static/js/main.45cf1460.js.map"
+    "main.bf81f8db.js.map": "/pharmlinesg/static/js/main.bf81f8db.js.map"
   },
   "entrypoints": [
     "static/css/main.7e1ad6e6.css",
-    "static/js/main.45cf1460.js"
+    "static/js/main.bf81f8db.js"
   ]
 }
