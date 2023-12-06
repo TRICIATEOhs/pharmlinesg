@@ -48,6 +48,7 @@ const MainNavbar = (props) => {
         </Container>
       </Navbar>
     </>
+    
   );
 }
 
