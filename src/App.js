@@ -20,15 +20,18 @@ import './components/Contact/contact.css';
 import './components/Events/events.css';
 import ScrollToTop from "./components/ScrollToTop";
 
+import { BrowserRouter } from "react-router-dom";
+
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      {/* <Router> */}
         <ScrollToTop />
         <Routes>
           <Route index element={<Home/>} />
-          <Route path="/home" element={<Home/>} />
+          <Route path="/" element={<Home/>} />
           <Route path="/about" element={<AboutUs/>} />
           <Route path='/products' element={<Products />}>
               <Route path=':productid' element={<ProductDetails />} />
@@ -39,7 +42,8 @@ function App() {
           <Route path="*" element={<NoMatch/>} />
         </Routes>
         <Footer/>
-      </Router>
+      {/* </Router> */}
+      </BrowserRouter>
       
 
     </div>
