@@ -38,7 +38,7 @@ function HomeCategories() {
                 </div>
 
                 <div className="row cat-item">
-                    <Row xs={3} md={3} lg={6} className="g-4">
+                    <Row xs={3} md={2} lg={6} className="g-4">
                         {categoryList}
                     </Row>
                 </div>
