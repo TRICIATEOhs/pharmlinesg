@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 
 import ItemModal from '../ItemModal.js';
-import brainBoosterJson from "../../../data/products/supplements/brainBooster.json";
+import brainBoosterJson from "../../../data/products/supplements/brainBooster.js";
 
 function BrainBoosters () {
 

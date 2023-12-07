@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 
 import ItemModal from '../ItemModal.js';
-import slimmingWeightMgmtJson from "../../../data/products/supplements/slimmingWeightMgmt.json";
+import slimmingWeightMgmtJson from "../../../data/products/supplements/slimmingWeightMgmt.js";
 
 function SlimmingWeightMgmt () {
 

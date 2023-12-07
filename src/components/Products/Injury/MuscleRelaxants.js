@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 
 import ItemModal from '../ItemModal.js';
-import muscleRelaxantsJson from "../../../data/products/injury/muscleRelaxants.json";
+import muscleRelaxantsJson from "../../../data/products/injury/muscleRelaxants.js";
 
 function MuscleRelaxants () {
 

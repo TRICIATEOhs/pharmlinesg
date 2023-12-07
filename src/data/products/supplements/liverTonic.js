@@ -1,8 +1,8 @@
-[
+const liverTonic = [
     {
         "id":1, 
         "name":"Legalon", 
-        "image": "/images/products/supplements-liver-tonic/legalon.png",
+        "image": require("../../../images/products/supplements-liver-tonic/legalon.png"),
         "description": "Effectively reduces oxidative stress in the liver caused by factors like alcohol abuse, some strong medications, infections, insulin resistance, etc.",
         "packSize": "Cap 140 mg x 30’s",
         "productOf": "Germany",
@@ -13,7 +13,7 @@
     {
         "id":2, 
         "name":"Livipids Forte", 
-        "image": "/images/products/supplements-liver-tonic/livipids-forte.jpg",
+        "image": require("../../../images/products/supplements-liver-tonic/livipids-forte.jpg"),
         "description": "Supports the vital functions of the liver",
         "packSize": "50’s capsules",
         "productOf": "-",
@@ -22,3 +22,5 @@
         "dosageInstructions": "Livipids Forte: 1 – 2 capsules daily"
     }
 ]
+
+export default liverTonic;

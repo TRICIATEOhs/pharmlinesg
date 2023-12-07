@@ -1,8 +1,8 @@
-[
+const brainBooster = [
     {
         "id":1, 
         "name":"Cavinton", 
-        "image": "/images/products/supplements-brain-boosters/cavinton.jpg",
+        "image": require("../../../images/products/supplements-brain-boosters/cavinton.jpg"),
         "description": "Cerebral circulatory disorders of various origin. Hypertensive encephalopathy. Intermittent vascular cerebral insufficiency. Improvement of collateral circulation in ischaemic cerebral injuries and in advanced cerebral arteriosclerosis.",
         "packSize": "5mg x 50’s tablets",
         "productOf": "Hungary",
@@ -11,3 +11,5 @@
         "dosageInstructions": "-"
     }
 ]
+
+export default brainBooster;

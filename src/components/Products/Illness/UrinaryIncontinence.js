@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 
 import ItemModal from '../ItemModal.js';
-import urinaryIncontinenceJson from "../../../data/products/illness/urinaryIncontinence.json";
+import urinaryIncontinenceJson from "../../../data/products/illness/urinaryIncontinence.js";
 
 function UrinaryIncontinence () {
 

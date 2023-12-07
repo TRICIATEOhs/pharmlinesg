@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 
 import ItemModal from '../ItemModal.js';
-import liverTonicJson from "../../../data/products/supplements/liverTonic.json";
+import liverTonicJson from "../../../data/products/supplements/liverTonic.js";
 
 function LiverTonic () {
 

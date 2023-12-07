@@ -2,7 +2,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { Link } from "react-router-dom";
 
-import pastEventsJson from "../../data/pastEvents.json";
+import pastEventsJson from "../../data/pastEvents.js";
 
 function PastEvents() {
 

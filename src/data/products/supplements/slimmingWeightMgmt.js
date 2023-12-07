@@ -1,8 +1,8 @@
-[
+const slimmingWeightMgmt =[
     {
         "id":1, 
         "name":"Forslim", 
-        "image": "/images/products/supplements-slimming-weight-management/forslim.jpg",
+        "image": require("../../../images/products/supplements-slimming-weight-management/forslim.jpg"),
         "description": "For weight management and body firming. Maintains weight after weight loss. Increases fat usage. Increases lean body mass",
         "packSize": "60’s capsules",
         "productOf": "-",
@@ -11,3 +11,5 @@
         "dosageInstructions": "1 capsule twice daily"
     }
 ]
+
+export default slimmingWeightMgmt;

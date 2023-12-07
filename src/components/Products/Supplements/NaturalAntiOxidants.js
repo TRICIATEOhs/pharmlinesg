@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 
 import ItemModal from '../ItemModal.js';
-import naturalAntiOxidantsJson from "../../../data/products/supplements/naturalAntiOxidants.json";
+import naturalAntiOxidantsJson from "../../../data/products/supplements/naturalAntiOxidants.js";
 
 function NaturalAntiOxidants () {
 

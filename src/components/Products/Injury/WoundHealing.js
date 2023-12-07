@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 
 import ItemModal from '../ItemModal.js';
-import woundHealingJson from "../../../data/products/injury/woundHealing.json";
+import woundHealingJson from "../../../data/products/injury/woundHealing.js";
 
 function WoundHealing () {
 

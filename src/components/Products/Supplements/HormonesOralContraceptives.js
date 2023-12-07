@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 
 import ItemModal from '../ItemModal.js';
-import hormonesOralContraceptivesJson from "../../../data/products/supplements/hormonesOralContraceptives.json";
+import hormonesOralContraceptivesJson from "../../../data/products/supplements/hormonesOralContraceptives.js";
 
 function HormonesOralContraceptives () {
 

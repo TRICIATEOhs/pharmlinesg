@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 
 import ItemModal from '../ItemModal.js';
-import jointHealthJson from "../../../data/products/supplements/jointHealth.json";
+import jointHealthJson from "../../../data/products/supplements/jointHealth.js";
 
 function JointHealth () {
 

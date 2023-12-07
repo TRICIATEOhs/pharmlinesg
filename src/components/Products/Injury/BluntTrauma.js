@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 
 import ItemModal from '../ItemModal.js';
-import bluntTraumaJson from "../../../data/products/injury/bluntTrauma.json";
+import bluntTraumaJson from "../../../data/products/injury/bluntTrauma.js";
 
 function BluntTrauma () {
 

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 
 import ItemModal from '../ItemModal.js';
-import earNoseThroatJson from "../../../data/products/illness/earNoseThroat.json";
+import earNoseThroatJson from "../../../data/products/illness/earNoseThroat.js";
 
 function EarNoseThroat () {
 

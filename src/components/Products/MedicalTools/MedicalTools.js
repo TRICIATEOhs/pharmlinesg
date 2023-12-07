@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 
 import ItemModal from '../ItemModal.js';
-import medicalToolsJson from "../../../data/products/medicalTools/medicalTools.json";
+import medicalToolsJson from "../../../data/products/medicalTools/medicalTools.js";
 
 function MedicalTools () {
 

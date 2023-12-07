@@ -1,4 +1,4 @@
-[
+const pastEvents = [
 
     {
         "_comment": [
@@ -20,14 +20,14 @@
         "snippet": "-",
         "details": [
         ],
-        "coverImage": "/images/events/cme-talk-for-doctors-the-sporting-knee/img1.jpg",
-        "programmeImage": "/images/events/cme-talk-for-doctors-the-sporting-knee/img1.jpg",
+        "coverImage": require("../images/events/cme-talk-for-doctors-the-sporting-knee/img1.jpg"),
+        "programmeImage": require("../images/events/cme-talk-for-doctors-the-sporting-knee/img1.jpg"),
         "imageGallery": [
-            "/images/events/cme-talk-for-doctors-the-sporting-knee/subimg1.jpg",
-            "/images/events/cme-talk-for-doctors-the-sporting-knee/subimg2.jpg",
-            "/images/events/cme-talk-for-doctors-the-sporting-knee/subimg3.jpg",
-            "/images/events/cme-talk-for-doctors-the-sporting-knee/subimg4.jpg",
-            "/images/events/cme-talk-for-doctors-the-sporting-knee/subimg5.jpg"
+            require("../images/events/cme-talk-for-doctors-the-sporting-knee/subimg1.jpg"),
+            require("../images/events/cme-talk-for-doctors-the-sporting-knee/subimg2.jpg"),
+            require("../images/events/cme-talk-for-doctors-the-sporting-knee/subimg3.jpg"),
+            require("../images/events/cme-talk-for-doctors-the-sporting-knee/subimg4.jpg"),
+            require("../images/events/cme-talk-for-doctors-the-sporting-knee/subimg5.jpg")
         ]
     },
     {
@@ -42,15 +42,14 @@
         "snippet": "-",
         "details": [
         ],
-        "coverImage": "/images/events/orthopaedic-public-forum-at-khoo-teck-puat-hospital/img1.jpg",
-        "programmeImage": "/images/events/orthopaedic-public-forum-at-khoo-teck-puat-hospital/img1.jpg",
+        "coverImage": require("../images/events/orthopaedic-public-forum-at-khoo-teck-puat-hospital/img1.jpg"),
+        "programmeImage": require("../images/events/orthopaedic-public-forum-at-khoo-teck-puat-hospital/img1.jpg"),
         "imageGallery": [
-            "/images/events/orthopaedic-public-forum-at-khoo-teck-puat-hospital/subimg1.jpg",
-            "/images/events/orthopaedic-public-forum-at-khoo-teck-puat-hospital/subimg2.jpg",
-            "/images/events/orthopaedic-public-forum-at-khoo-teck-puat-hospital/subimg3.jpg",
-            "/images/events/orthopaedic-public-forum-at-khoo-teck-puat-hospital/subimg4.jpg",
-            "/images/events/orthopaedic-public-forum-at-khoo-teck-puat-hospital/subimg5.jpg",
-            "/images/events/orthopaedic-public-forum-at-khoo-teck-puat-hospital/subimg6.jpg"
+            require("../images/events/orthopaedic-public-forum-at-khoo-teck-puat-hospital/subimg2.jpg"),
+            require("../images/events/orthopaedic-public-forum-at-khoo-teck-puat-hospital/subimg3.jpg"),
+            require("../images/events/orthopaedic-public-forum-at-khoo-teck-puat-hospital/subimg4.jpg"),
+            require("../images/events/orthopaedic-public-forum-at-khoo-teck-puat-hospital/subimg5.jpg"),
+            require("../images/events/orthopaedic-public-forum-at-khoo-teck-puat-hospital/subimg6.jpg")
         ]
     },
     {
@@ -66,15 +65,15 @@
         "details": [
             "Event runs from 04 – 06 May 2018. For doctors and specialists only."
         ],
-        "coverImage": "/images/events/singapore-allergy-and-rhinology-conference-2018/image1.jpg",
-        "programmeImage": "/images/events/singapore-allergy-and-rhinology-conference-2018/image1.jpg",
+        "coverImage": require("../images/events/singapore-allergy-and-rhinology-conference-2018/image1.jpg"),
+        "programmeImage": require("../images/events/singapore-allergy-and-rhinology-conference-2018/image1.jpg"),
         "imageGallery": [
-            "/images/events/singapore-allergy-and-rhinology-conference-2018/subimg1.jpg",
-            "/images/events/singapore-allergy-and-rhinology-conference-2018/subimg2.jpg",
-            "/images/events/singapore-allergy-and-rhinology-conference-2018/subimg3.jpg",
-            "/images/events/singapore-allergy-and-rhinology-conference-2018/subimg4.jpg",
-            "/images/events/singapore-allergy-and-rhinology-conference-2018/subimg5.jpg",
-            "/images/events/singapore-allergy-and-rhinology-conference-2018/subimg6.jpg"
+            require("../images/events/singapore-allergy-and-rhinology-conference-2018/subimg2.jpg"),
+            require("../images/events/singapore-allergy-and-rhinology-conference-2018/subimg3.jpg"),
+            require("../images/events/singapore-allergy-and-rhinology-conference-2018/subimg4.jpg"),
+            require("../images/events/singapore-allergy-and-rhinology-conference-2018/subimg5.jpg"),
+            require("../images/events/singapore-allergy-and-rhinology-conference-2018/subimg6.jpg"),
+            require("../images/events/singapore-allergy-and-rhinology-conference-2018/subimg1.jpg")
         ]
     },
     {
@@ -91,13 +90,13 @@
             "Nature of talk: Continuing medical education (CME) lunch talk for doctors",
             "Speaker: Dr Leong Jern-Lin (Consultant Ear Nose and Throat Surgeon and Director of Sinus and Allergy Services in ASCENT Ear Nose Throat Specialist Group)"
         ],
-        "coverImage": "/images/events/update-on-allergic-rhinitis-treatments/img1.jpg",
-        "programmeImage": "/images/events/update-on-allergic-rhinitis-treatments/img1.jpg",
+        "coverImage": require("../images/events/update-on-allergic-rhinitis-treatments/img1.jpg"),
+        "programmeImage": require("../images/events/update-on-allergic-rhinitis-treatments/img1.jpg"),
         "imageGallery": [
-            "/images/events/update-on-allergic-rhinitis-treatments/subimg1.jpg",
-            "/images/events/update-on-allergic-rhinitis-treatments/subimg2.jpg",
-            "/images/events/update-on-allergic-rhinitis-treatments/subimg3.jpg",
-            "/images/events/update-on-allergic-rhinitis-treatments/subimg4.jpg"
+            require("../images/events/update-on-allergic-rhinitis-treatments/subimg1.jpg"),
+            require("../images/events/update-on-allergic-rhinitis-treatments/subimg2.jpg"),
+            require("../images/events/update-on-allergic-rhinitis-treatments/subimg3.jpg"),
+            require("../images/events/update-on-allergic-rhinitis-treatments/subimg4.jpg")
         ]
     },
     {
@@ -114,8 +113,8 @@
             "Respiratory tract infections are often associated with mucous covered and narrowed airways. Through the adrenaline-mediated activation of ß2-adrenergic signaling pathways, the human body attempts to dilate narrowed airways and free them from mucus. However, the human body’s secretolytic and bronchospasmolytic capacity are limited by the internalization of ß2AR, which is induced under stimulating conditions and reduces the number of ß2AR on the cell surface.",
             "In this talk, Prof. Dr. Hanns Häberlein will unlock the actions of Prospan (EA 575®), share on how it inhibits the internalization of ß2AR and brings about the Secretolytic, Bronchospasmolytic and Anti-Inflammatory effects."
         ],
-        "coverImage": "/images/events/respiratory-tract-infection-with-focus-on-bronchitis-and-phytotreatment-options/img1.png",
-        "programmeImage": "/images/events/respiratory-tract-infection-with-focus-on-bronchitis-and-phytotreatment-options/img1.png",
+        "coverImage": require("../images/events/respiratory-tract-infection-with-focus-on-bronchitis-and-phytotreatment-options/img1.png"),
+        "programmeImage": require("../images/events/respiratory-tract-infection-with-focus-on-bronchitis-and-phytotreatment-options/img1.png"),
         "imageGallery": [
         ]
     },
@@ -135,19 +134,19 @@
             "Allergic Rhinitis: Unmet Need and Current Therapies: Allergic rhinitis remains under-diagnosed, under-estimated and under-treated. Most patients treat their symptoms with over the counter medications. Multi-medication use is common in an effort to achieve faster and more complete symptom relief. Many patients remain symptomatic on current treatment, and are unsurprisingly dissatisfied with it. There is a clear unmet need for allergic rhinitis medications which provide rapid, clinically-relevant and sustained allergic rhinitis control.",
             "A New Class of Allergic Rhinitis Medication Approved by HSA: A new class of allergic rhinitis medication, comprising a corticosteroid (i.e. fluticasone propionate) and an anti-histamine (i.e. azelastine) in a single nasal spray was launched in this symposium. Results from its large clinical development programme have positioned the medication as the drug of choice for allergic rhinitis. It has a rapid onset of action (in minutes), is twice as effective as an intranasal corticosteroid, provides more complete symptom control, targets both nasal and ocular symptoms, when used both short- and long-term."
         ],
-        "coverImage": "/images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/img1.jpg",
-        "programmeImage": "/images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/schedule.jpg",
+        "coverImage": require("../images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/img1.jpg"),
+        "programmeImage": require("../images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/schedule.jpg"),
         "imageGallery": [
-            "/images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/img1.jpg",
-            "/images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/subimg1.jpg",
-            "/images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/subimg2.jpg",
-            "/images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/subimg3.jpg",
-            "/images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/subimg4.jpg",
-            "/images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/subimg5.jpg",
-            "/images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/subimg6.jpg",
-            "/images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/subimg7.jpg",
-            "/images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/subimg8.jpg",
-            "/images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/subimg9.jpg"
+            require("../images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/img1.jpg"),
+            require("../images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/subimg1.jpg"),
+            require("../images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/subimg2.jpg"),
+            require("../images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/subimg3.jpg"),
+            require("../images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/subimg4.jpg"),
+            require("../images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/subimg5.jpg"),
+            require("../images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/subimg6.jpg"),
+            require("../images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/subimg7.jpg"),
+            require("../images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/subimg8.jpg"),
+            require("../images/events/addressing-the-unmet-needs-in-the-management-of-allergic-rhinitis/subimg9.jpg")
         ]
     },
     {
@@ -165,8 +164,8 @@
             "Organized by: Khoo Teck Puat Hospital",
             "Co-sponsored by: Viartril-S"
         ],
-        "coverImage": "/images/events/orthopaedic-public-forum-in-tamil/schedule.jpg",
-        "programmeImage": "/images/events/orthopaedic-public-forum-in-tamil/schedule.jpg",
+        "coverImage": require("../images/events/orthopaedic-public-forum-in-tamil/schedule.jpg"),
+        "programmeImage": require("../images/events/orthopaedic-public-forum-in-tamil/schedule.jpg"),
         "imageGallery": [
         ]
     },
@@ -183,8 +182,8 @@
         "details": [
             "To reach out to consumers to educate them of the importance of the selection of the brand of health supplements particularly glucosamine, since they are not regulated in Singapore. Here’s how to choose effectively, according to the American Arthritis Foundation:"
         ],
-        "coverImage": "/images/events/viartrils-roadshow/img1.jpg",
-        "programmeImage": "/images/events/viartrils-roadshow/img1.jpg",
+        "coverImage": require("../images/events/viartrils-roadshow/img1.jpg"),
+        "programmeImage": require("../images/events/viartrils-roadshow/img1.jpg"),
         "imageGallery": [
         ]
     },
@@ -203,20 +202,20 @@
             "Special thanks to Prof. J.Y. Reginster M.D.,PH.D., President, Chairman, the Director and Professor of Epidemiology, Public Health & Health Economics, University of Liège. for sharing valuable insights to our local doctors, specialists and pharmacists on the prevention and treatment of osteoarthritis.",
             "Prof. Reginster specifically highlighted the importance of differentiating the original Viartril-S, from other brands of glucosamine based on strong clinical evidences."
         ],
-        "coverImage": "/images/events/lunch-symposium/img1.jpg",
-        "programmeImage": "/images/events/lunch-symposium/img1.jpg",
+        "coverImage": require("../images/events/lunch-symposium/img1.jpg"),
+        "programmeImage": require("../images/events/lunch-symposium/img1.jpg"),
         "imageGallery": [
-            "/images/events/lunch-symposium/img2.jpg",
-            "/images/events/lunch-symposium/img3.jpg",
-            "/images/events/lunch-symposium/img4.jpg",
-            "/images/events/lunch-symposium/img5.jpg",
-            "/images/events/lunch-symposium/img6.jpg",
-            "/images/events/lunch-symposium/img7.jpg",
-            "/images/events/lunch-symposium/img8.jpg",
-            "/images/events/lunch-symposium/img9.jpg",
-            "/images/events/lunch-symposium/img10.jpg",
-            "/images/events/lunch-symposium/img11.jpg",
-            "/images/events/lunch-symposium/img12.jpg"
+            require("../images/events/lunch-symposium/img2.jpg"),
+            require("../images/events/lunch-symposium/img3.jpg"),
+            require("../images/events/lunch-symposium/img4.jpg"),
+            require("../images/events/lunch-symposium/img5.jpg"),
+            require("../images/events/lunch-symposium/img6.jpg"),
+            require("../images/events/lunch-symposium/img7.jpg"),
+            require("../images/events/lunch-symposium/img8.jpg"),
+            require("../images/events/lunch-symposium/img9.jpg"),
+            require("../images/events/lunch-symposium/img10.jpg"),
+            require("../images/events/lunch-symposium/img11.jpg"),
+            require("../images/events/lunch-symposium/img12.jpg")
         ]
     },
     {
@@ -233,13 +232,13 @@
             "Team Pharmline came together to meet important doctors in their individual clinics with an important message",
             "“Legalon, the only clinically proven liver-specific treatment for fatty liver disease!”"
         ],
-        "coverImage": "/images/events/legalon-blitz/img1.jpg",
-        "programmeImage": "/images/events/legalon-blitz/img1.jpg",
+        "coverImage": require("../images/events/legalon-blitz/img1.jpg"),
+        "programmeImage": require("../images/events/legalon-blitz/img1.jpg"),
         "imageGallery": [
-            "/images/events/legalon-blitz/img2.jpg",
-            "/images/events/legalon-blitz/img3.jpg",
-            "/images/events/legalon-blitz/img4.jpg",
-            "/images/events/legalon-blitz/img5.jpg"
+            require("../images/events/legalon-blitz/img2.jpg"),
+            require("../images/events/legalon-blitz/img3.jpg"),
+            require("../images/events/legalon-blitz/img4.jpg"),
+            require("../images/events/legalon-blitz/img5.jpg")
         ]
     },
     {
@@ -255,16 +254,16 @@
         "details": [
             "Viartril-S, Reparil-Gel N & Prospan roadshow by the Pharmline team at a restructured hospital for a Sports Medicine Shoulder Tendinopathy Course attended by general practitioners."
         ],
-        "coverImage": "/images/events/sports-medicine-shoulder-tendinopathy-course-for-GP/img1.jpg",
-        "programmeImage": "/images/events/sports-medicine-shoulder-tendinopathy-course-for-GP/img1.jpg",
+        "coverImage": require("../images/events/sports-medicine-shoulder-tendinopathy-course-for-GP/img1.jpg"),
+        "programmeImage": require("../images/events/sports-medicine-shoulder-tendinopathy-course-for-GP/img1.jpg"),
         "imageGallery": [
-            "/images/events/sports-medicine-shoulder-tendinopathy-course-for-GP/img2.jpg",
-            "/images/events/sports-medicine-shoulder-tendinopathy-course-for-GP/img3.jpg",
-            "/images/events/sports-medicine-shoulder-tendinopathy-course-for-GP/img4.jpg",
-            "/images/events/sports-medicine-shoulder-tendinopathy-course-for-GP/img5.jpg",
-            "/images/events/sports-medicine-shoulder-tendinopathy-course-for-GP/img6.jpg",
-            "/images/events/sports-medicine-shoulder-tendinopathy-course-for-GP/img7.jpg",
-            "/images/events/sports-medicine-shoulder-tendinopathy-course-for-GP/img8.jpg"
+            require("../images/events/sports-medicine-shoulder-tendinopathy-course-for-GP/img2.jpg"),
+            require("../images/events/sports-medicine-shoulder-tendinopathy-course-for-GP/img3.jpg"),
+            require("../images/events/sports-medicine-shoulder-tendinopathy-course-for-GP/img4.jpg"),
+            require("../images/events/sports-medicine-shoulder-tendinopathy-course-for-GP/img5.jpg"),
+            require("../images/events/sports-medicine-shoulder-tendinopathy-course-for-GP/img6.jpg"),
+            require("../images/events/sports-medicine-shoulder-tendinopathy-course-for-GP/img7.jpg"),
+            require("../images/events/sports-medicine-shoulder-tendinopathy-course-for-GP/img8.jpg")
         ]
     },
     {
@@ -283,13 +282,13 @@
             "Paragraph 2",
             "Paragraph 3"
         ],
-        "coverImage": "/images/events/cme-talk-managing-knee-pain-how-does-the-evidence-stand-up/img1.jpg",
-        "programmeImage": "/images/events/cme-talk-managing-knee-pain-how-does-the-evidence-stand-up/img1.jpg",
+        "coverImage": require("../images/events/cme-talk-managing-knee-pain-how-does-the-evidence-stand-up/img1.jpg"),
+        "programmeImage": require("../images/events/cme-talk-managing-knee-pain-how-does-the-evidence-stand-up/img1.jpg"),
         "imageGallery": [
-            "/images/events/cme-talk-managing-knee-pain-how-does-the-evidence-stand-up/img2.jpg",
-            "/images/events/cme-talk-managing-knee-pain-how-does-the-evidence-stand-up/img3.jpg",
-            "/images/events/cme-talk-managing-knee-pain-how-does-the-evidence-stand-up/img4.jpg",
-            "/images/events/cme-talk-managing-knee-pain-how-does-the-evidence-stand-up/img5.jpg"
+            require("../images/events/cme-talk-managing-knee-pain-how-does-the-evidence-stand-up/img2.jpg"),
+            require("../images/events/cme-talk-managing-knee-pain-how-does-the-evidence-stand-up/img3.jpg"),
+            require("../images/events/cme-talk-managing-knee-pain-how-does-the-evidence-stand-up/img4.jpg"),
+            require("../images/events/cme-talk-managing-knee-pain-how-does-the-evidence-stand-up/img5.jpg")
         ]
     },
     {
@@ -305,12 +304,12 @@
         "details": [
             "Prospan product training for Guardian retail assistants to educate them on the indication, dosage information and effectiveness of Prospan for productive cough. We also highlighted the distinct differences between Propsan and other brands of ivy leave extract, given the concrete data and studies supporting the use of Prospan."
         ],
-        "coverImage": "/images/events/prospan-guardian-retail-assistant-pharmacists-product-training/img1.jpg",
-        "programmeImage": "/images/events/prospan-guardian-retail-assistant-pharmacists-product-training/img1.jpg",
+        "coverImage": require("../images/events/prospan-guardian-retail-assistant-pharmacists-product-training/img1.jpg"),
+        "programmeImage": require("../images/events/prospan-guardian-retail-assistant-pharmacists-product-training/img1.jpg"),
         "imageGallery": [
-            "/images/events/prospan-guardian-retail-assistant-pharmacists-product-training/img2.jpg",
-            "/images/events/prospan-guardian-retail-assistant-pharmacists-product-training/img3.jpg",
-            "/images/events/prospan-guardian-retail-assistant-pharmacists-product-training/img4.jpg"
+            require("../images/events/prospan-guardian-retail-assistant-pharmacists-product-training/img2.jpg"),
+            require("../images/events/prospan-guardian-retail-assistant-pharmacists-product-training/img3.jpg"),
+            require("../images/events/prospan-guardian-retail-assistant-pharmacists-product-training/img4.jpg")
         ]
     },
     {
@@ -326,13 +325,13 @@
         "details": [
             "Viartril-S product training for Guardian retail assistants to improve their knowledge on the distinct differences between Viartril-S and other glucosamine brands, given the concrete data and studies supporting the use of only Viartril-S. The retails assistants were also trained on the efficacy and safety of Viartril-S, including its indication and dosage information."
         ],
-        "coverImage": "/images/events/viartrils-guardian-retail-assistant-pharmacists-product-training/img1.jpg",
-        "programmeImage": "/images/events/viartrils-guardian-retail-assistant-pharmacists-product-training/img1.jpg",
+        "coverImage": require("../images/events/viartrils-guardian-retail-assistant-pharmacists-product-training/img1.jpg"),
+        "programmeImage": require("../images/events/viartrils-guardian-retail-assistant-pharmacists-product-training/img1.jpg"),
         "imageGallery": [
-            "/images/events/viartrils-guardian-retail-assistant-pharmacists-product-training/img2.jpg",
-            "/images/events/viartrils-guardian-retail-assistant-pharmacists-product-training/img3.jpg",
-            "/images/events/viartrils-guardian-retail-assistant-pharmacists-product-training/img4.jpg",
-            "/images/events/viartrils-guardian-retail-assistant-pharmacists-product-training/img5.jpg"
+            require("../images/events/viartrils-guardian-retail-assistant-pharmacists-product-training/img2.jpg"),
+            require("../images/events/viartrils-guardian-retail-assistant-pharmacists-product-training/img3.jpg"),
+            require("../images/events/viartrils-guardian-retail-assistant-pharmacists-product-training/img4.jpg"),
+            require("../images/events/viartrils-guardian-retail-assistant-pharmacists-product-training/img5.jpg")
         ]
     },
     {
@@ -348,16 +347,16 @@
         "details": [
             "If you are a health and wellness enthusiast, you certainly would not want to miss this annual health exhibition. Drop down to our booth (C10) to experience our quality products, and to understand the importance of picking the right product among the diverse range of products available outside. The products available include Viartril-S (the only tested and proven Crystalline Glucosamine Sulphate) and Prospan (the no.1 herbal cough syrup sold wordlwide) sold at attractive prices!"
         ],
-        "coverImage": "/images/events/health-and-you-2015/img1.jpg",
-        "programmeImage": "/images/events/health-and-you-2015/img1.jpg",
+        "coverImage": require("../images/events/health-and-you-2015/img1.jpg"),
+        "programmeImage": require("../images/events/health-and-you-2015/img1.jpg"),
         "imageGallery": [
-            "/images/events/health-and-you-2015/img2.jpg",
-            "/images/events/health-and-you-2015/img3.jpg",
-            "/images/events/health-and-you-2015/img4.jpg",
-            "/images/events/health-and-you-2015/img5.jpg",
-            "/images/events/health-and-you-2015/img6.jpg",
-            "/images/events/health-and-you-2015/img7.jpg",
-            "/images/events/health-and-you-2015/img8.jpg"
+            require("../images/events/health-and-you-2015/img2.jpg"),
+            require("../images/events/health-and-you-2015/img3.jpg"),
+            require("../images/events/health-and-you-2015/img4.jpg"),
+            require("../images/events/health-and-you-2015/img5.jpg"),
+            require("../images/events/health-and-you-2015/img6.jpg"),
+            require("../images/events/health-and-you-2015/img7.jpg"),
+            require("../images/events/health-and-you-2015/img8.jpg")
         ]
     },
     {
@@ -374,14 +373,14 @@
             "Dr Wilson Tay, Consultant Pain Specialist and Anaesthetist at Singapore Pain Care Center",
             "Light refreshment will be provided and gift bags will be given away while stocks last"
         ],
-        "coverImage": "/images/events/public-education-talk-bone-and-joint-health/img1.jpg",
-        "programmeImage": "/images/events/public-education-talk-bone-and-joint-health/img1.jpg",
+        "coverImage": require("../images/events/public-education-talk-bone-and-joint-health/img1.jpg"),
+        "programmeImage": require("../images/events/public-education-talk-bone-and-joint-health/img1.jpg"),
         "imageGallery": [
-            "/images/events/public-education-talk-bone-and-joint-health/img2.jpg",
-            "/images/events/public-education-talk-bone-and-joint-health/img3.jpg",
-            "/images/events/public-education-talk-bone-and-joint-health/img4.jpg",
-            "/images/events/public-education-talk-bone-and-joint-health/img5.jpg",
-            "/images/events/public-education-talk-bone-and-joint-health/img6.jpg"
+            require("../images/events/public-education-talk-bone-and-joint-health/img2.jpg"),
+            require("../images/events/public-education-talk-bone-and-joint-health/img3.jpg"),
+            require("../images/events/public-education-talk-bone-and-joint-health/img4.jpg"),
+            require("../images/events/public-education-talk-bone-and-joint-health/img5.jpg"),
+            require("../images/events/public-education-talk-bone-and-joint-health/img6.jpg")
         ]
     },
     {
@@ -400,16 +399,16 @@
             "RSVP: Before 23rd January 2015",
             "Light refreshment will be provided and a gift bag worth more than $10.00 will be given away"
         ],
-        "coverImage": "/images/events/osteoarthritis-and-cancer-risk-and-treatment-options/img1.jpg",
-        "programmeImage": "/images/events/osteoarthritis-and-cancer-risk-and-treatment-options/img1.jpg",
+        "coverImage": require("../images/events/osteoarthritis-and-cancer-risk-and-treatment-options/img1.jpg"),
+        "programmeImage": require("../images/events/osteoarthritis-and-cancer-risk-and-treatment-options/img1.jpg"),
         "imageGallery": [
-            "/images/events/osteoarthritis-and-cancer-risk-and-treatment-options/img2.jpg",
-            "/images/events/osteoarthritis-and-cancer-risk-and-treatment-options/img3.jpg",
-            "/images/events/osteoarthritis-and-cancer-risk-and-treatment-options/img4.jpg",
-            "/images/events/osteoarthritis-and-cancer-risk-and-treatment-options/img5.jpg",
-            "/images/events/osteoarthritis-and-cancer-risk-and-treatment-options/img6.jpg",
-            "/images/events/osteoarthritis-and-cancer-risk-and-treatment-options/img7.jpg",
-            "/images/events/osteoarthritis-and-cancer-risk-and-treatment-options/img8.jpg"
+            require("../images/events/osteoarthritis-and-cancer-risk-and-treatment-options/img2.jpg"),
+            require("../images/events/osteoarthritis-and-cancer-risk-and-treatment-options/img3.jpg"),
+            require("../images/events/osteoarthritis-and-cancer-risk-and-treatment-options/img4.jpg"),
+            require("../images/events/osteoarthritis-and-cancer-risk-and-treatment-options/img5.jpg"),
+            require("../images/events/osteoarthritis-and-cancer-risk-and-treatment-options/img6.jpg"),
+            require("../images/events/osteoarthritis-and-cancer-risk-and-treatment-options/img7.jpg"),
+            require("../images/events/osteoarthritis-and-cancer-risk-and-treatment-options/img8.jpg")
         ]
     },
     {
@@ -424,12 +423,12 @@
         "snippet": "-",
         "details": [
         ],
-        "coverImage": "/images/events/fatty-liver-disease/img3.jpg",
-        "programmeImage": "/images/events/fatty-liver-disease/img3.jpg",
+        "coverImage": require("../images/events/fatty-liver-disease/img3.jpg"),
+        "programmeImage": require("../images/events/fatty-liver-disease/img3.jpg"),
         "imageGallery": [
-            "/images/events/fatty-liver-disease/img2.jpg",
-            "/images/events/fatty-liver-disease/img3.jpg",
-            "/images/events/fatty-liver-disease/img4.jpg"
+            require("../images/events/fatty-liver-disease/img2.jpg"),
+            require("../images/events/fatty-liver-disease/img3.jpg"),
+            require("../images/events/fatty-liver-disease/img4.jpg")
         ]
     },
     {
@@ -447,13 +446,13 @@
             "Please join us to find out the treatment options for joint pain, and learn some exercises to relief knee pain.",
             "Light refreshment will be provided and gift bags will be given away while stocks last"
         ],
-        "coverImage": "/images/events/are-you-suffering-from-knee-pain/img5.jpg",
-        "programmeImage": "/images/events/are-you-suffering-from-knee-pain/img5.jpg",
+        "coverImage": require("../images/events/are-you-suffering-from-knee-pain/img5.jpg"),
+        "programmeImage": require("../images/events/are-you-suffering-from-knee-pain/img5.jpg"),
         "imageGallery": [
-            "/images/events/are-you-suffering-from-knee-pain/img2.jpg",
-            "/images/events/are-you-suffering-from-knee-pain/img3.jpg",
-            "/images/events/are-you-suffering-from-knee-pain/img4.jpg",
-            "/images/events/are-you-suffering-from-knee-pain/img5.jpg"
+            require("../images/events/are-you-suffering-from-knee-pain/img2.jpg"),
+            require("../images/events/are-you-suffering-from-knee-pain/img3.jpg"),
+            require("../images/events/are-you-suffering-from-knee-pain/img4.jpg"),
+            require("../images/events/are-you-suffering-from-knee-pain/img5.jpg")
         ]
     },
     {
@@ -469,17 +468,19 @@
         "details": [
             "If you are a health and wellness enthusiast, you certainly would not want to miss this annual health exhibition. Drop down to our booth (B44) to experience our quality products, and to understand the importance of picking the right product among the diverse range of products available outside. The products available include Viartril-S (the only tested and proven Crystalline Glucosamine Sulphate) and Prospan (the no.1 herbal cough syrup sold worldwide) sold at attractive prices!"
         ],
-        "coverImage": "/images/events/health-and-you-2014/img2.jpg",
-        "programmeImage": "/images/events/health-and-you-2014/img2.jpg",
+        "coverImage": require("../images/events/health-and-you-2014/img2.jpg"),
+        "programmeImage": require("../images/events/health-and-you-2014/img2.jpg"),
         "imageGallery": [
-            "/images/events/health-and-you-2014/img2.jpg",
-            "/images/events/health-and-you-2014/img3.jpg",
-            "/images/events/health-and-you-2014/img4.jpg",
-            "/images/events/health-and-you-2014/img5.jpg",
-            "/images/events/health-and-you-2014/img6.jpg",
-            "/images/events/health-and-you-2014/img7.jpg",
-            "/images/events/health-and-you-2014/img8.jpg",
-            "/images/events/health-and-you-2014/img9.jpg"
+            require("../images/events/health-and-you-2014/img2.jpg"),
+            require("../images/events/health-and-you-2014/img3.jpg"),
+            require("../images/events/health-and-you-2014/img4.jpg"),
+            require("../images/events/health-and-you-2014/img5.jpg"),
+            require("../images/events/health-and-you-2014/img6.jpg"),
+            require("../images/events/health-and-you-2014/img7.jpg"),
+            require("../images/events/health-and-you-2014/img8.jpg"),
+            require("../images/events/health-and-you-2014/img9.jpg")
         ]
     }
 ]
+
+export default pastEvents;

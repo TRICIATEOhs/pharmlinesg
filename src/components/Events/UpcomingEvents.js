@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Badge from 'react-bootstrap/Badge';
 import Alert from 'react-bootstrap/Alert';
 
-import upcomingEvents from '../../data/upcomingEvents.json';
+import upcomingEvents from '../../data/upcomingEvents.js';
 
 function UpcomingEvents() {
 

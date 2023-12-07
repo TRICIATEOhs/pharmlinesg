@@ -1,8 +1,8 @@
-[
+const heartHealth = [
     {
         "id":1, 
         "name":"ArmoLIPID", 
-        "image": "/images/products/supplements-heart-health/armolipid.jpg",
+        "image": require("../../../images/products/supplements-heart-health/armolipid.jpg"),
         "description": "Supports healthy cholesterol levels in association with a suitable diet.",
         "packSize": "??",
         "productOf": "Italy",
@@ -13,7 +13,7 @@
     {
         "id":2, 
         "name":"TocoQ10 Coenzyme Q10 (Reduced Form) + Tocotrienols Vegetable Softgels", 
-        "image": "/images/products/supplements-heart-health/tocoq10-coenzyme.png",
+        "image": require("../../../images/products/supplements-heart-health/tocoq10-coenzyme.png"),
         "description": "Potent anti-oxidants for brain and heart. Improve heart and brain functions. Maintain optimum cholesterol levels",
         "packSize": "60’s vegetable softgels",
         "productOf": "-",
@@ -22,3 +22,5 @@
         "dosageInstructions": "Take 1 softgel with/after a meal"
     }
 ]
+
+export default heartHealth;

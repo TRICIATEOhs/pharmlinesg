@@ -1,8 +1,8 @@
-[
+const bluntTrauma = [
     {
         "id":1, 
         "name":"Reparil-Gel N", 
-        "image": "/images/products/injury-blunt-trauma-bruising/reparil-gen-n.jpg",
+        "image": require("../../../images/products/injury-blunt-trauma-bruising/reparil-gen-n.jpg"),
         "description": "-",
         "packSize": "40g",
         "productOf": "Germany",
@@ -11,3 +11,5 @@
         "dosageInstructions": "-"
     }
 ]
+
+export default bluntTrauma;

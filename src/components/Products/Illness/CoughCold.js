@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 
 import ItemModal from '../ItemModal.js';
-import coughColdJson from "../../../data/products/illness/coughCold.json";
+import coughColdJson from "../../../data/products/illness/coughCold.js";
 
 function CoughCold () {
 

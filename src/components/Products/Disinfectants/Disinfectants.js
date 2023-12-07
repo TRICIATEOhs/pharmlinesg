@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Row from 'react-bootstrap/Row';
 
 import ItemModal from '../ItemModal.js';
-import disinfectantsJson from "../../../data/products/disinfectants/disinfectants.json";
+import disinfectantsJson from "../../../data/products/disinfectants/disinfectants.js";
 
 function Disinfectants () {
 
