@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from 'react';
+import Row from 'react-bootstrap/Row';
 
 import ItemModal from '../ItemModal.js';
 import heartHealthJson from "../../../data/products/supplements/heartHealth.js";
@@ -59,7 +60,9 @@ function HeartHealth () {
             </div>
 
             <div className="row itemContainer">
-                {productList}
+                <Row xs={1} md={2} lg={3} className="g-4">
+                    {productList}
+                </Row>
             </div>
 
 

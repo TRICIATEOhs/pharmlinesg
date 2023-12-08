@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from 'react';
+import Row from 'react-bootstrap/Row';
 
 import ItemModal from '../ItemModal.js';
 import bluntTraumaJson from "../../../data/products/injury/bluntTrauma.js";
@@ -54,12 +55,14 @@ function BluntTrauma () {
         <>
 
             <div className="side-title">
-                    <h5>{header}</h5>
+                <h5>{header}</h5>
                     <hr></hr>
                 </div>
 
                 <div className="row itemContainer">
-                    {productList}
+                    <Row xs={1} md={2} lg={3} className="g-4">
+                        {productList}
+                    </Row>
                 </div>
 
 

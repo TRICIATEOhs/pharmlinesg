@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from 'react';
+import Row from 'react-bootstrap/Row';
 
 import ItemModal from '../ItemModal.js';
 import dermatologicalJson from "../../../data/products/dermatological/dermatological.js";
@@ -33,20 +34,6 @@ function Dermatological () {
 
     )); 
 
-    // const productList = dermatologicalJson && dermatologicalJson.map((product) => {
-    //     return(
-    //     <div className="col col-sm-4 itemCard" key={product.id}>
-    //         <div className="itemImage">
-    //             <Link href={() => false} onClick={() => displayItemModal(product)}><img src={product.image} alt={product.name}/> </Link>
-    //         </div>
-    //         <div className="itemInfo">
-    //             <Link href={() => false} onClick={() => displayItemModal(product)}><p className="itemName">{product.name}</p> </Link>
-    //             <p className="itemDesc">{category}</p>
-    //         </div>
-    //     </div>
-    //     );
-    // });
-
     /*This is to close the modal and reset the value*/
     function callBack (childData) {
         setShow(false);
@@ -73,7 +60,9 @@ function Dermatological () {
             </div>
 
             <div className="row itemContainer">
-                {productList}
+                <Row xs={1} md={2} lg={3} className="g-4">
+                    {productList}
+                </Row>
             </div>
 
 

@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from 'react';
+import Row from 'react-bootstrap/Row';
+
 
 import ItemModal from '../ItemModal.js';
 import medicalToolsJson from "../../../data/products/medicalTools/medicalTools.js";
@@ -59,7 +61,9 @@ function MedicalTools () {
             </div>
 
             <div className="row itemContainer">
-                {productList}
+                <Row xs={1} md={2} lg={3} className="g-4">
+                    {productList}
+                </Row>
             </div>
 
 

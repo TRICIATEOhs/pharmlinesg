@@ -4,11 +4,13 @@
 
 .itemCard {
     margin: 40px 0;
+    max-width: 200px;
+    max-height: auto;
 }
 
 .itemImage img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: auto;
     object-fit: fill;
 }
 
