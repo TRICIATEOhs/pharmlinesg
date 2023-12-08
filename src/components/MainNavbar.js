@@ -23,24 +23,35 @@ const MainNavbar = (props) => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
 
-              <Nav.Link>
-                <Link className={`nav-link ${(activeTab === "/home") ? 'active' : ''}`} aria-current="page" to={`${(activeTab === "/home") ? '/' : '/'}`}> Home </Link>
+              <Nav.Link as={Link}
+              className={`${(activeTab === "/home") ? 'active' : ''}`} 
+              aria-current="page" 
+              to={`${(activeTab === "/home") ? '/' : '/'}`}>
+                Home
               </Nav.Link>
 
-              <Nav.Link>
-                <Link className={`nav-link ${(activeTab === "/about") ? 'active' : ''}`} to={`${(activeTab === "/about") ? '/about' : '/about'}`}> About us </Link>
+              <Nav.Link as={Link}
+              className={`${(activeTab === "/about") ? 'active' : ''}`} 
+              to={`${(activeTab === "/about") ? '/about' : '/about'}`}>
+                About us
               </Nav.Link>
 
-              <Nav.Link>
-                <Link className={`nav-link ${(activeTab === "/products") ? 'active' : ''}`} to={`${(activeTab === "/products") ? '/products/brain-boosters-memory-enhancers' : '/products/brain-boosters-memory-enhancers'}`}> Our products </Link>
+              <Nav.Link as={Link}
+              className={`${(activeTab === "/products") ? 'active' : ''}`} 
+              to={`${(activeTab === "/products") ? '/products/brain-boosters-memory-enhancers' : '/products/brain-boosters-memory-enhancers'}`}>
+              Our products
               </Nav.Link>
 
-              <Nav.Link>
-                <Link className={`nav-link ${(activeTab === "/events") ? 'active' : ''}`} to={`${(activeTab === "/events") ? '/events' : '/events'}`}> Events </Link>
+              <Nav.Link as={Link}
+              className={`${(activeTab === "/events") ? 'active' : ''}`} 
+              to={`${(activeTab === "/events") ? '/events' : '/events'}`}>
+              Events
               </Nav.Link>
 
-              <Nav.Link>
-              <Link className={`nav-link ${(activeTab === "/contact") ? 'active' : ''}`} to={`${(activeTab === "/contact") ? '/contact' : '/contact'}`}> Contact us </Link>
+              <Nav.Link as={Link}
+              className={`${(activeTab === "/contact") ? 'active' : ''}`} 
+              to={`${(activeTab === "/contact") ? '/contact' : '/contact'}`}>
+                Contact us
               </Nav.Link>
 
             </Nav>
