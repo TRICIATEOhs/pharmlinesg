@@ -91,7 +91,7 @@ function PastEvents() {
                 <div className="col side-title">
                     <h4>Past events</h4>
                     <hr/>
-                    <Row xs={1} md={4} className="g-4">
+                    <Row xs={2} md={3} lg={4} className="g-4">
                         {eventList}
                     </Row>
                 </div>

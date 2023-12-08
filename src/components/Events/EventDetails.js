@@ -4,6 +4,7 @@ import Badge from 'react-bootstrap/Badge';
 import { Calendar, Clock, GeoAlt, ArrowLeft } from 'react-bootstrap-icons';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import Table from 'react-bootstrap/Table';
 
 import MainNavbar from '../MainNavbar.js';
 
@@ -80,7 +81,7 @@ function EventDetails() {
                 }
                 
                 <div className="row g-4">
-                    <div className="col-8">
+                    <div className="col-12 col-md-8">
                         <h5>About the event</h5>
                         
                         {arrEventDetails.map((detail, idx) => {
@@ -99,11 +100,39 @@ function EventDetails() {
                     </div>
 
 
-                    <div className="col-4">
+                    <div className="col-12 col-md-4">
                         <h5>Event details</h5>
-                        <p><span className="icon-circle-white"><Calendar size="16"/></span><span className="medium">Date: </span> {date}</p>
-                        <p><span className="icon-circle-white"><Clock size="16"/></span><span className="medium">Time: </span>{time}</p>
-                        <p><span className="icon-circle-white"><GeoAlt size="16"/></span><span className="medium">Location: </span>{location}</p>
+
+                        <Table borderless>
+                            <tbody>
+                                <tr>
+                                <td>
+                                    <span className="icon-circle-white"><Calendar size="16"/></span>
+                                </td>
+                                <td>
+                                    <span className="medium">Date: </span> {date}
+                                </td>
+                                </tr>
+
+                                <tr>
+                                <td>
+                                    <span className="icon-circle-white"><Clock size="16"/></span>
+                                </td>
+                                <td>
+                                    <span className="medium">Time: </span>{time}
+                                </td>
+                                </tr>
+
+                                <tr>
+                                <td>
+                                    <span className="icon-circle-white"><GeoAlt size="16"/></span>
+                                </td>
+                                <td>
+                                    <span className="medium">Location: </span>{location}
+                                </td>
+                                </tr>
+                            </tbody>
+                        </Table>
                     </div>
                 </div>
             </div>
