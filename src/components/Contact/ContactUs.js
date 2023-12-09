@@ -26,7 +26,6 @@ function ContactUs() {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        //emailjs.sendForm('service_weaqu1a','template_uzn9nhe',e.target,'f6nkrPgs32FIMDuHy');
         emailjs.sendForm(emailJsCredentials.service_id, emailJsCredentials.template_id,e.target, emailJsCredentials.public_key);
     }
 
