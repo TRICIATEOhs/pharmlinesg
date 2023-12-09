@@ -12,7 +12,7 @@ function SubscribeNewsletterForm() {
                     controlId="nameinput"
                     label="Name"
                     className="mb-3">
-                        <Form.Control type="input" placeholder="Your name" />
+                        <Form.Control type="input" placeholder="Your name" name="nameInput" />
                     </FloatingLabel>
                 </Col>
                 <Col md>
@@ -20,7 +20,7 @@ function SubscribeNewsletterForm() {
                     controlId="contactinput"
                     label="Contact number"
                     className="mb-3">
-                        <Form.Control type="input" placeholder="Your contact" />
+                        <Form.Control type="input" placeholder="Your contact" name="contactInput" />
                     </FloatingLabel>
                 </Col>
             </Row>
@@ -29,7 +29,7 @@ function SubscribeNewsletterForm() {
             controlId="emailinput"
             label="Email address"
             className="mb-3">
-                <Form.Control type="email" placeholder="name@example.com" />
+                <Form.Control type="email" placeholder="name@example.com" name="emailInput"/>
             </FloatingLabel>
 
         </>

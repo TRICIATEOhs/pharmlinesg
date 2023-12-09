@@ -164,6 +164,11 @@ a:hover, a:active {
     font-weight: 500;
 }
 
+.form-check-input:checked {
+    background-color: #cc0000;
+    border-color: #cc0000;
+}
+
 .dropdown-item-button .btn-primary {
     border-radius: 8px;
     border: 1px solid #cc0000;

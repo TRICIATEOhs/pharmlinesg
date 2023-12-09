@@ -1,5 +1,5 @@
 
-[
+const productList = [
     {
         "categoryId":1,
         "name": "Supplements",
@@ -112,3 +112,5 @@
         ]
     }
 ]
+
+export default productList;

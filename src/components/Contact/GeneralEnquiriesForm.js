@@ -12,7 +12,7 @@ function GeneralEnquiriesForm() {
                     controlId="nameinput"
                     label="Name"
                     className="mb-3">
-                        <Form.Control type="input" placeholder="Your name" />
+                        <Form.Control type="input" name="nameInput" placeholder="Your name" />
                     </FloatingLabel>
                 </Col>
                 <Col md>
@@ -20,7 +20,7 @@ function GeneralEnquiriesForm() {
                     controlId="contactinput"
                     label="Contact number"
                     className="mb-3">
-                        <Form.Control type="input" placeholder="Your contact" />
+                        <Form.Control type="input" name="contactInput" placeholder="Your contact" />
                     </FloatingLabel>
                 </Col>
             </Row>
@@ -29,7 +29,7 @@ function GeneralEnquiriesForm() {
             controlId="emailinput"
             label="Email address"
             className="mb-3">
-                <Form.Control type="email" placeholder="name@example.com" />
+                <Form.Control type="email" name="emailInput" placeholder="name@example.com" />
             </FloatingLabel>
 
 
@@ -38,6 +38,7 @@ function GeneralEnquiriesForm() {
                 as="textarea"
                 placeholder="Leave a comment here"
                 style={{ height: '100px' }}
+                name="commentsInput"
                 />
             </FloatingLabel>
 

@@ -5,7 +5,7 @@ import { useMediaQuery } from 'react-responsive';
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 
-import productListJson from "../../data/productList.json";
+import productListJson from "../../data/productList.js";
 
 const ProductNavbar = () => {
 

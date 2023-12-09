@@ -5,11 +5,14 @@ import { useMediaQuery } from 'react-responsive';
 import { Telephone } from 'react-bootstrap-icons';
 import { GeoAlt } from 'react-bootstrap-icons';
 import { useState } from 'react';
+import emailjs from '@emailjs/browser';
+import Modal from 'react-bootstrap/Modal';
 
 import MainNavbar from '../MainNavbar.js';
 import JoinMembershipForm from './JoinMembershipForm.js';
 import SubscribeNewsletterForm from './SubscribeNewsletterForm.js';
 import GeneralEnquiriesForm from './GeneralEnquiriesForm.js';
+import emailJsCredentials from "../../data/emailJsCredentials.js";
 
 function ContactUs() {
 
@@ -20,6 +23,16 @@ function ContactUs() {
     function handleSelect(event) {
         setEnquiry(event.target.value);
     }
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        //emailjs.sendForm('service_weaqu1a','template_uzn9nhe',e.target,'f6nkrPgs32FIMDuHy');
+        emailjs.sendForm(emailJsCredentials.service_id, emailJsCredentials.template_id,e.target, emailJsCredentials.public_key);
+    }
+
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
 
     return(
         <>
@@ -34,25 +47,25 @@ function ContactUs() {
 
                 <div className="row mt-3">
                     <div className="col contact-form">
-                        <Form>
+                        <Form onSubmit={sendEmail}>
                             <FloatingLabel controlId="floatingSelect" label="Subject">
-                                <Form.Select aria-label="Floating label select" onChange={handleSelect}>
-                                    <option value="1">General enquiries</option>
-                                    <option value="2">Subscribe newsletters</option>
-                                    <option value="3">Join membership</option>
+                                <Form.Select aria-label="Floating label select" onChange={handleSelect} name="subjectInput">
+                                    <option value="General enquiries">General enquiries</option>
+                                    <option value="Subscribe to newsletters">Subscribe to newsletters</option>
+                                    <option value="Join membership">Join membership</option>
                                 </Form.Select>
                             </FloatingLabel>
 
                             {
-                                (enquiry === "2") ? 
+                                (enquiry === "Subscribe to newsletters") ? 
                                 (<SubscribeNewsletterForm/>) :
-                                (enquiry === "3") ? 
+                                (enquiry === "Join membership") ? 
                                 (<JoinMembershipForm/>) :
                                 (<GeneralEnquiriesForm/>)
                             }
                             
 
-                            <Button variant="primary raise" type="submit">Submit</Button>
+                            <Button variant="primary raise" type="submit" onClick={handleShow}>Submit</Button>
 
                         </Form>
 
@@ -81,6 +94,19 @@ function ContactUs() {
 
 
                 </div>
+
+                <Modal show={show} onHide={handleClose}>
+                    <Modal.Header closeButton>
+                    <Modal.Title>Form submitted!</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>Thank you for contacting us; we will respond as soon as possible!</Modal.Body>
+                    <Modal.Footer>
+                    <Button variant="primary" onClick={handleClose}>
+                        Close
+                    </Button>
+                    </Modal.Footer>
+                </Modal>
+
             </div>
         </>
     );

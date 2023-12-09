@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import {  BrowserRouter as Router,  Routes,  Route} from "react-router-dom";
+import {  BrowserRouter,  Routes,  Route} from "react-router-dom";
 
 import Home from './components/Home/Home.js';
 import AboutUs from './components/About/AboutUs.js';
@@ -20,7 +20,7 @@ import './components/Contact/contact.css';
 import './components/Events/events.css';
 import ScrollToTop from "./components/ScrollToTop";
 
-import { BrowserRouter } from "react-router-dom";
+
 
 
 function App() {

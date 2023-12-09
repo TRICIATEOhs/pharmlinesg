@@ -27,13 +27,14 @@ function JoinMembershipForm() {
                 <Form.Check
                     inline
                     type="checkbox"
-                    id="prospan"
+                    name="prospanInput"
                     label="Prospan"
+                    
                 />
                 <Form.Check
                     inline
                     type="checkbox"
-                    id="viartril"
+                    name="viartrilInput"
                     label="Viartril-S"
                 />
             </Form.Group>
@@ -44,7 +45,7 @@ function JoinMembershipForm() {
                     controlId="nameinput"
                     label="Name"
                     className="mb-3">
-                        <Form.Control type="input" placeholder="Your name" />
+                        <Form.Control type="input" placeholder="Your name" name="nameInput" />
                     </FloatingLabel>
                 </Col>
                 <Col md>
@@ -52,7 +53,7 @@ function JoinMembershipForm() {
                     controlId="contactinput"
                     label="Contact number"
                     className="mb-3">
-                        <Form.Control type="input" placeholder="Your contact" />
+                        <Form.Control type="input" placeholder="Your contact" name="contactInput" />
                     </FloatingLabel>
                 </Col>
             </Row>
@@ -61,7 +62,7 @@ function JoinMembershipForm() {
             controlId="emailinput"
             label="Email address"
             className="mb-3">
-                <Form.Control type="email" placeholder="name@example.com" />
+                <Form.Control type="email" placeholder="name@example.com" name="emailInput" />
             </FloatingLabel>
 
             <Row className="g-2">
@@ -70,7 +71,7 @@ function JoinMembershipForm() {
                     controlId="blockinput"
                     label="House / Block number"
                     className="mb-3">
-                        <Form.Control type="input" placeholder="House / Block number" />
+                        <Form.Control type="input" placeholder="House / Block number" name="blockInput" />
                     </FloatingLabel>
                 </Col>
                 <Col md>
@@ -78,7 +79,7 @@ function JoinMembershipForm() {
                     controlId="streetinput"
                     label="Street"
                     className="mb-3">
-                        <Form.Control type="input" placeholder="Street" />
+                        <Form.Control type="input" placeholder="Street" name="streetInput"/>
                     </FloatingLabel>
                 </Col>
             </Row>
@@ -89,7 +90,7 @@ function JoinMembershipForm() {
                     controlId="unitinput"
                     label="Unit number"
                     className="mb-3">
-                        <Form.Control type="input" placeholder="Unit number" />
+                        <Form.Control type="input" placeholder="Unit number" name="unitInput"/>
                     </FloatingLabel>
                 </Col>
                 <Col md>
@@ -97,26 +98,21 @@ function JoinMembershipForm() {
                     controlId="postalinput"
                     label="Postcal Code"
                     className="mb-3">
-                        <Form.Control type="input" placeholder="Postal Code" />
+                        <Form.Control type="input" placeholder="Postal Code" name="postalInput"/>
                     </FloatingLabel>
                 </Col>
             </Row>
 
             <Form.Group className="mb-3" controlId="declarationinput">
-                <Form.Label>Declaration</Form.Label>
+                <Form.Label>Please read this declaration</Form.Label>
                 <Row className="g-2">
                     <Col md>
-
                         <label
                             className="form-check-label"
-                            for="declaration"
+                            htmlFor="declaration"
+                            name="declarationInput"
                         >
-                            <input
-                                type="checkbox"
-                                className="form-check-input"
-                                id="declaration"
-                            /> 
-                            I agree that I have read the <Link href={() => false} onClick={() => dispalyPDPAModal()}>Personal Data Protection Policy</Link> and consent to PHARMLINE, as well as PHARMLINE’s third party service providers and agents, collecting, using and disclosing my Personal Data in accordance with PHARMLINE’s Personal Data Protection Policy for the purpose of sending me marketing, advertising and promotional information about products and services that PHARMLINE may be offering, and which PHARMLINE believes may be of interest or benefit to me, by way of postal mail and/or electronic transmission to my email address.
+                        By submitting this form, I agree that I have read the <Link href={() => false} onClick={() => dispalyPDPAModal()}>Personal Data Protection Policy</Link> and consent to PHARMLINE, as well as PHARMLINE’s third party service providers and agents, collecting, using and disclosing my Personal Data in accordance with PHARMLINE’s Personal Data Protection Policy for the purpose of sending me marketing, advertising and promotional information about products and services that PHARMLINE may be offering, and which PHARMLINE believes may be of interest or benefit to me, by way of postal mail and/or electronic transmission to my email address.
                         </label>
                     </Col>
                 </Row>
