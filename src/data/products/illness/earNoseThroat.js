@@ -3,7 +3,9 @@ const earNoseThroat = [
         "id":1, 
         "name":"Cerumol", 
         "image": require("../../../images/products/illness-ear-nose-throat-preparations/cerumol.png"),
-        "description": "Ear drops for removal of ear wax",
+        "description": [
+            "Ear drops for removal of ear wax"
+        ],
         "packSize": "10ml",
         "productOf": "United Kingdom",
         "exclusiveAvailability": false, 
@@ -14,7 +16,9 @@ const earNoseThroat = [
         "id":2, 
         "name":"Cerumol Olive Oil", 
         "image": require("../../../images/products/illness-ear-nose-throat-preparations/cerumol-olive-oil.png"),
-        "description": "Extra virgin olive oil ear drops to gently soften and remove of ear wax.",
+        "description": [
+            "Extra virgin olive oil ear drops to gently soften and remove of ear wax."
+        ],
         "packSize": "10ml",
         "productOf": "Spain",
         "exclusiveAvailability": false, 
@@ -25,7 +29,9 @@ const earNoseThroat = [
         "id":3, 
         "name":"Dymista Nasal Spray", 
         "image": require("../../../images/products/illness-ear-nose-throat-preparations/dymista-nasal-spray.jpg"),
-        "description": "Symptomatic treatment of moderate to severe allergic rhinitis and rhino-conjunctivitis in adults and children 12 years and older where use of a combination (intranasal antihistamine and glucocorticoid) is appropriate.",
+        "description": [
+            "Symptomatic treatment of moderate to severe allergic rhinitis and rhino-conjunctivitis in adults and children 12 years and older where use of a combination (intranasal antihistamine and glucocorticoid) is appropriate."
+        ],
         "packSize": "17 mL bottle containing 120 sprays",
         "productOf": "-",
         "exclusiveAvailability": true, 
@@ -36,7 +42,13 @@ const earNoseThroat = [
         "id":4, 
         "name":"Isla Junior", 
         "image": require("../../../images/products/illness-ear-nose-throat-preparations/isla-junior.png"),
-        "description": "Isla junior sore throat lozenges for children. Scientifically reserached to help relieve: Sore, irritated, tickly throats, cough symptoms, horseness, dry throat. Sugar-free and with yummy strawberry flavour. Suitable for 4 years old and above.",
+        "description": [
+            "Isla junior sore throat lozenges for children. Suitable for 4 years old and above.",
+
+            "Scientifically reserached to help relieve: Sore, irritated, tickly throats, cough symptoms, horseness, dry throat.",
+
+            "Sugar-free and with yummy strawberry flavour."
+        ],
         "packSize": "20’s",
         "productOf": "Germany",
         "exclusiveAvailability": false, 
@@ -47,7 +59,11 @@ const earNoseThroat = [
         "id":5, 
         "name":"Isla-Cassis / Isla-Mint", 
         "image": require("../../../images/products/illness-ear-nose-throat-preparations/isla-cassis.jpg"),
-        "description": "Sugar free herbal lozenges. Relieves tickly throat and hoarseness. For singers, teachers and speakers whose vocal cords are constantly under stress. Available in Peppermint and Blackcurrant flavors.",
+        "description": [
+            "Sugar free herbal lozenges. Relieves tickly throat and hoarseness. Available in Peppermint and Blackcurrant flavors.",
+
+            "For singers, teachers and speakers whose vocal cords are constantly under stress."
+        ],
         "packSize": "30’s",
         "productOf": "Germany",
         "exclusiveAvailability": false, 
@@ -58,7 +74,11 @@ const earNoseThroat = [
         "id":6, 
         "name":"Nisita", 
         "image": require("../../../images/products/illness-ear-nose-throat-preparations/nisita.jpg"),
-        "description": "Helps relieve blocked nose and colds. Cleans and moisturizes the lining inside the nose, eg in aircon or dry air environment. Suitable for both adults and children.",
+        "description": [
+            "Helps relieve blocked nose and colds. Suitable for both adults and children.",
+
+            "Cleans and moisturizes the lining inside the nose, eg in aircon or dry air environment."
+        ],
         "packSize": "Available as nasal spray (20ml) and nasal ointment (20g)",
         "productOf": "-",
         "exclusiveAvailability": false, 

@@ -34,6 +34,7 @@ function Footer() {
                             <p><Link to="/products/dermatological" target="_blank" rel="noreferrer noopener">Dermatological</Link></p>
                             <p><Link to="/products/disinfectants" target="_blank" rel="noreferrer noopener">Disinfectants</Link></p>
                             <p><Link to="/products/medical-tools" target="_blank" rel="noreferrer noopener">Medical tools</Link></p>
+                            <p><Link to="/products/wristbands" target="_blank" rel="noreferrer noopener">Wristbands</Link></p>
                         </div>
 
                         <div className="col-12 col-md-4">

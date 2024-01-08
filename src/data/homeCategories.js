@@ -39,9 +39,17 @@ const homeCategories = [
         "id":6, 
         "urlName": "medical-tools",
         "categoryName": "Medical Tools",
-        "defaultIcon": require("../images/icons/iconSupplements.png"),
+        "defaultIcon": require("../images/icons/iconMedicalTools.png"),
         "hoverIcon": require("../images/icons/boldMedicalTools.png"),
+    },
+    {
+        "id":7, 
+        "urlName": "wristbands",
+        "categoryName": "Wristbands",
+        "defaultIcon": require("../images/icons/iconWristband.png"),
+        "hoverIcon": require("../images/icons/boldWristband.png"),
     }
+    
 ]
 
 export default homeCategories;

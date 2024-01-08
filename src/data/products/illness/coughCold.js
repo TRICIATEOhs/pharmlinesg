@@ -3,7 +3,13 @@ const coughCold = [
         "id":1, 
         "name":"Prospan (Tablets)", 
         "image": require("../../../images/products/illness-cough-cold-preparations/prospan.png"),
-        "description": "Four modes of action effective against cough: dissolves thick mucus, relaxes airway muscles, alleviates inflammation and relieves cough. Alcohol-free, sugar-free, colorant-free, pleasant taste. Non-drowsy formula. Suitable for infants – adults. Available as syrup (measuring cup provided for convenience) and effervescent tablets (easy to carry around).",
+        "description": [
+            "Four modes of action effective against cough: dissolves thick mucus, relaxes airway muscles, alleviates inflammation and relieves cough.",
+
+            "Alcohol-free, sugar-free, colorant-free, pleasant taste. Non-drowsy formula. Suitable for infants – adults.",
+
+            "Available as syrup (measuring cup provided for convenience) and effervescent tablets (easy to carry around)."
+        ],
         "packSize": "20’s (effervescent tablets)",
         "productOf": "Germany",
         "exclusiveAvailability": false, 
@@ -14,7 +20,13 @@ const coughCold = [
         "id":2, 
         "name":"Prospan Forte for Adults", 
         "image": require("../../../images/products/illness-cough-cold-preparations/prospan-forte.png"),
-        "description": "Four modes of action effective against cough: dissolves thick mucus, relaxes airway muscles, alleviates inflammation and relieves cough. The cooling menthol helps to soothe throat irritation and calms cough quickly. Alcohol-free, sugar-free, colorant-free. Non-drowsy formula. Suitable for adults and children 6 years old and above. Available as syrup (measuring cup provided for convenience) and effervescent tablets (easy to carry around).",
+        "description": [
+            "Four modes of action effective against cough: dissolves thick mucus, relaxes airway muscles, alleviates inflammation and relieves cough. The cooling menthol helps to soothe throat irritation and calms cough quickly.", 
+
+            "Alcohol-free, sugar-free, colorant-free. Non-drowsy formula. Suitable for adults and children 6 years old and above.",
+
+            "Available as syrup (measuring cup provided for convenience) and effervescent tablets (easy to carry around)."
+        ],
         "packSize": "100ml (syrup)",
         "productOf": "Germany",
         "exclusiveAvailability": false, 

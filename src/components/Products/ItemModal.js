@@ -2,6 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Accordion from 'react-bootstrap/Accordion';
 import { useState } from 'react';
+import Carousel from 'react-bootstrap/Carousel';
 
 const ItemModal = (props) => {
 
@@ -19,6 +20,47 @@ const ItemModal = (props) => {
     const exclusiveAvailability = props.exclusiveAvailability;
     const ingredients = props.ingredients;
     const dosage = props.dosageInstructions;
+    const imageGallery = props.imageGallery;
+
+    /*Carousel*/
+    const [index, setIndex] = useState(0);
+
+    const handleSelect = (selectedIndex) => {
+      setIndex(selectedIndex);
+    };
+
+
+    var isDescriptionArray = false;
+    if (
+        typeof description != "undefined" &&
+        description != null &&
+        description.length != null &&
+        description.length > 0
+    )
+    {
+        isDescriptionArray = Array.isArray(description);
+    }
+
+    var showImageGallery = "false";
+    if (
+        typeof imageGallery != "undefined" &&
+        imageGallery != null &&
+        imageGallery.length != null &&
+        imageGallery.length > 0
+    )
+    {
+        showImageGallery ="true";
+    }
+
+    const galleryList = imageGallery && imageGallery.map( (image, idx) => {
+        return(
+            <Carousel.Item key={idx}>
+                <div className="modalImage">
+                    <img src={image} alt=""/>
+                </div>
+            </Carousel.Item>
+        );
+    });
 
     return (
         <>
@@ -32,16 +74,34 @@ const ItemModal = (props) => {
 
                 <Modal.Body>
 
-                    <div className="modalImage">
-                        <img src={image} alt=""/>
-                    </div>
+                    { showImageGallery === "true" ?
+                        <Carousel activeIndex={index} onSelect={handleSelect}>
+                            {galleryList}
+                        </Carousel>
+                    :
+                        <div className="modalImage">
+                            <img src={image} alt=""/>
+                        </div>
+                    }
 
                     <div className="modalInfo">
                         <Accordion defaultActiveKey="0" flush>
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header>About the product</Accordion.Header>
                                 <Accordion.Body>
-                                    <p>{description}</p>
+                                    {
+                                        isDescriptionArray ? 
+                                        
+                                        description && description.map( (paragraph, idx) => {
+                                            return(
+                                                <p key={idx}>{paragraph}</p>
+                                            );
+                                        })
+
+                                        :
+                                        <p>{description}</p>
+                                    }
+                                    {/* <p>{description}</p> */}
                                     <p><span className="medium">Pack size</span>: {packSize}</p>
                                     <p><span className="medium">Product of</span>: {productOf}</p>
                                     {exclusiveAvailability ? (

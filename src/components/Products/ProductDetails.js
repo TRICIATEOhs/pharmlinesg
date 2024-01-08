@@ -21,6 +21,7 @@ import UrinaryIncontinence from './Illness/UrinaryIncontinence.js';
 import Dermatological from './Dermatological/Dermatological.js';
 import Disinfectants from './Disinfectants/Disinfectants.js';
 import MedicalTools from './MedicalTools/MedicalTools.js';
+import Wristbands from './Wristbands/Wristbands.js';
 
 function ProductDetails() {
 
@@ -204,6 +205,17 @@ function ProductDetails() {
                         </div>
                         <div className="col-12 col-md-8">
                             <MedicalTools />
+                        </div>
+                    </>
+                )  : productid === "wristbands" ? (
+                    <>
+                        <div className="col-12 col-md-4">
+                            <Accordion defaultActiveKey="6" flush>
+                                <ProductNavbar />
+                            </Accordion>
+                        </div>
+                        <div className="col-12 col-md-8">
+                            <Wristbands />
                         </div>
                     </>
                 ) : (

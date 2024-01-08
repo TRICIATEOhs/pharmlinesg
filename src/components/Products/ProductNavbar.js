@@ -26,6 +26,9 @@ const ProductNavbar = () => {
     } else if(pathName === "medical-tools") {
       let path = `/products/medical-tools`; 
       navigate(path);
+    } else if(pathName === "wristbands") {
+      let path = `/products/wristbands`; 
+      navigate(path);
     }
   }
 
@@ -34,7 +37,7 @@ const ProductNavbar = () => {
       <div key={category.categoryId}>
 
         {
-          (category.categoryId !== 5 && category.categoryId !== 6)?
+          (category.categoryId !== 5 && category.categoryId !== 6 && category.categoryId !== 7)?
             <Dropdown.ItemText>{category.name}</Dropdown.ItemText>
           :
           ""
@@ -69,75 +72,6 @@ const ProductNavbar = () => {
       </div>
     );
   })
-
-  // const productAccordion = productListJson && productListJson.map( category => {
-
-  //   let eventKey = category.categoryId - 1;
-
-  //   return(
-  //     <div key={category.categoryId}>
-
-  //       {
-  //         (category.categoryId !== 4 && category.categoryId !== 5 && category.categoryId !== 6)?
-          
-  //         <Accordion.Item eventKey={eventKey}>
-  //           <Accordion.Header>{category.name}</Accordion.Header>
-  //           <Accordion.Body>
-  //               <ul>
-
-  //               {category.products.map( product => (
-                  
-  //                 <div key={product.productId}>
-  //                   {
-  //                     (product.urlName === "brain-boosters-memory-enhancers")?
-  //                       <li><Link 
-  //                       to={{
-  //                         pathname: `/products/${product.urlName}`
-  //                       }}
-  //                       className={`${((activeTab === `${product.urlName}`) || (activeTab === "")) ? 'itemActive' : ''}`}> 
-  //                       {product.displayText}</Link></li>
-
-  //                     :
-
-  //                     <li><Link 
-  //                     to={{
-  //                       pathname: `/products/${product.urlName}`
-  //                     }}
-  //                     className={`${((activeTab === `${product.urlName}`)) ? 'itemActive' : ''}`}> 
-  //                     {product.displayText}</Link></li>
-  //                   }
-  //                 </div>
-  //               ))}  
-  //               </ul>
-  //           </Accordion.Body>
-  //         </Accordion.Item>
-
-  //         :
-          
-  //         <Accordion.Item eventKey={eventKey} className="singleItem">
-  //           {category.products.map( product => (
-              
-  //             <div key={product.productId}>
-
-  //               <Accordion.Header className="catItem" onClick={() => routeChange(`${product.urlName}`)}>
-  //                 <Link 
-  //                 to={{
-  //                   pathname: `/products/${product.urlName}`
-  //                 }}
-  //                 className={`${activeTab === `${product.urlName}` ? 'itemActive' : ''}`}>
-  //                 {product.displayText}</Link>
-  //               </Accordion.Header>
-
-  //             </div>
-  //           ))}  
-  //         </Accordion.Item>
-
-  //       }
-
-  //     </div>
-  //   );
-
-  // })
 
   return (
     <>
@@ -245,6 +179,14 @@ const ProductNavbar = () => {
                 to="/products/medical-tools" 
                 className={`${activeTab === "medical-tools" ? 'itemActive' : ''}`}>
                 Medical Tools</Link>
+              </Accordion.Header>
+          </Accordion.Item>
+          <Accordion.Item eventKey="6" className="singleItem">
+              <Accordion.Header className="catItem" onClick={() => routeChange("wristbands")}>
+                <Link 
+                to="/products/wristbands" 
+                className={`${activeTab === "wristbands" ? 'itemActive' : ''}`}>
+                Wristbands</Link>
               </Accordion.Header>
           </Accordion.Item>
         </div>

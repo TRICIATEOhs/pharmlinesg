@@ -2,7 +2,7 @@
 const upcomingEvents = [
     {
         "_comment": "!!You may edit the text data, but do not remove any fields from this file. Simply change the status to 'active' (case-sensitive) to display the event details. To hide it from public, change the status to 'inactive' (case-sensitive)!!",
-        "status": "active",
+        "status": "inactive",
         "id":1, 
         "urlName": "cme-talk-for-doctors-the-sporting-knee",
         "name":"CME Talk for Doctors: The Sporting Knee",

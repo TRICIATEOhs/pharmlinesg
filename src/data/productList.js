@@ -110,6 +110,17 @@ const productList = [
                 "displayText": "Medical Tools"
             }
         ]
+    },
+    {
+        "categoryId":7,
+        "name": "Others",
+        "products": [
+            {
+                "productId":1, 
+                "urlName":"wristbands",
+                "displayText": "Wristbands"
+            }
+        ]
     }
 ]
 
