@@ -101,11 +101,10 @@ const ItemModal = (props) => {
                                         :
                                         <p>{description}</p>
                                     }
-                                    {/* <p>{description}</p> */}
                                     <p><span className="medium">Pack size</span>: {packSize}</p>
                                     <p><span className="medium">Product of</span>: {productOf}</p>
                                     {exclusiveAvailability ? (
-                                        <p><span className="highlight">Only available in clinics and specialist centres (or by prescription only)</span></p>
+                                        <p><span className="highlight medium">Only available in clinics and specialist centres (or by prescription only)</span></p>
                                     ) : (
                                         ""
                                     )}

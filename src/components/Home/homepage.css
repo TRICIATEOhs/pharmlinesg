@@ -4,11 +4,6 @@
     object-fit: contain;
 }
 
-/*This is so that the description does not span too long across the whole page*/
-.description {
-    padding: 0 80px;
-}
-
 /*Icon sizing*/
 .mini-icon {
     height: 24px;

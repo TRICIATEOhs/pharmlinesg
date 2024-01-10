@@ -10,6 +10,7 @@ import iconSkin from '../images/icons/iconSkin.png';
 import iconDisinfectant from '../images/icons/iconDisinfectant.png';
 import iconMedicalTools from '../images/icons/iconMedicalTools.png';
 import boldRedMedicalTools from '../images/icons/boldRedMedicalTools.png';
+import iconWristband from '../images/icons/iconWristband.png';
 import facebookicon from '../images/icons/facebookicon.png';
 
 
@@ -17,6 +18,7 @@ const fatihicon = 'https://www.flaticon.com/free-icons/supplement';
 const mavadee = 'https://www.flaticon.com/free-icons/patch';
 const eucalyp = 'https://www.flaticon.com/free-icons/cough';
 const surang = 'https://www.flaticon.com/free-icons/rash';
+const surang2 = 'https://www.flaticon.com/free-icons/wristband';
 const amonrat = 'https://www.flaticon.com/free-icons/germ';
 const freepik = 'https://www.flaticon.com/free-icons/surgery';
 const triangle = 'https://www.flaticon.com/free-icons/surgical-instrument';
@@ -88,6 +90,10 @@ function AttributionsModal() {
           <p>
             <img className="mini-icon" src={iconSkin} alt="rash icons"/> Rash icons created by
             <Link title="rash icons" to={surang} target="_blank" rel="noreferrer noopener"> surang</Link> 
+          </p>
+          <p>
+            <img className="mini-icon" src={iconWristband} alt="wristband icons"/> Wristband icons created by
+            <Link title="wristband icons" to={surang2} target="_blank" rel="noreferrer noopener"> surang</Link> 
           </p>
           <p>
             <img className="mini-icon" src={iconDisinfectant} alt="germ icons"/> Germ icons created by

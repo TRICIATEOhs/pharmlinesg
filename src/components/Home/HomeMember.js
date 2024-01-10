@@ -15,7 +15,8 @@ function HomeMember() {
                     <div className="col">
                         <h3>Be our member</h3>
                         <hr/>
-                        <p className="description">Become a member with us to access latest product information, special offers, complimentary delivery, and exciting free gifts with your purchases.  <Link to="/contact" target="_blank" rel="noreferrer noopener">Join us today</Link> and elevate your healthcare journey!</p>
+                        <p className="description">Become a member with us to access latest product information, special offers, complimentary delivery, and exciting free gifts with your purchases.</p>
+                        <p><Link to="/contact" target="_blank" rel="noreferrer noopener">Join us today</Link> and elevate your healthcare journey!</p>
                     </div>
                 </div>
 

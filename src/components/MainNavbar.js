@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-import logo from '../images/logo.png';
+import homeData from '../data/home.js';
 
 const MainNavbar = (props) => {
 
@@ -16,7 +16,7 @@ const MainNavbar = (props) => {
       <Navbar expand="lg" className="bg-body-light">
         <Container>
           <Navbar.Brand>
-            <Link className="navbar-brand" to={`${(activeTab === "/home") ? '/' : '/'}`}> <img className="logo" src={logo} alt="logo"/></Link>
+            <Link className="navbar-brand" to={`${(activeTab === "/home") ? '/' : '/'}`}> <img className="logo" src={homeData[0].logo} alt="logo"/></Link>
           </Navbar.Brand>
           
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
