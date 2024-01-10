@@ -12,6 +12,10 @@ import MainNavbar from '../MainNavbar.js';
 function EventDetails() {
 
     const stateLocation = useLocation();
+    console.log("location:" + stateLocation);
+    console.log("location state:" + stateLocation.state);
+    console.log("status:" + stateLocation.state.status);
+
     const status = stateLocation.state.status;
     const name = stateLocation.state.name;
     const openToPublicTag = stateLocation.state.openToPublicTag;
@@ -30,7 +34,6 @@ function EventDetails() {
         arrImageGallery = imageGallery.split('||');
         isImageGallery = true;
     }
-    console.log(arrImageGallery);
     const eventDetails = stateLocation.state.details;
     let arrEventDetails = [];
     if (eventDetails !== '') {
