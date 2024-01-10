@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pharmlinesg/static/css/main.be28a375.css",
+    "main.css": "/pharmlinesg/static/css/main.13191ee7.css",
     "main.js": "/pharmlinesg/static/js/main.c57aacb8.js",
     "static/media/img1.jpg": "/pharmlinesg/static/media/img1.eb7dc3b3c2a866477fe9.jpg",
     "static/media/schedule.jpg": "/pharmlinesg/static/media/schedule.a829f39cd876477a4af8.jpg",
@@ -89,11 +89,11 @@
     "static/media/go-on.jpg": "/pharmlinesg/static/media/go-on.fcf896394d94f2e7c714.jpg",
     "static/media/securline.jpg": "/pharmlinesg/static/media/securline.6395e681cb7ed5282111.jpg",
     "index.html": "/pharmlinesg/index.html",
-    "main.be28a375.css.map": "/pharmlinesg/static/css/main.be28a375.css.map",
+    "main.13191ee7.css.map": "/pharmlinesg/static/css/main.13191ee7.css.map",
     "main.c57aacb8.js.map": "/pharmlinesg/static/js/main.c57aacb8.js.map"
   },
   "entrypoints": [
-    "static/css/main.be28a375.css",
+    "static/css/main.13191ee7.css",
     "static/js/main.c57aacb8.js"
   ]
 }
