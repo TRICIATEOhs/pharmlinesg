@@ -9,17 +9,18 @@ const MainNavbar = (props) => {
 
   const activeTab = props.activeTab;
 
-
   return (
     <>
 
       <Navbar expand="lg" className="bg-body-light">
         <Container>
+
           <Navbar.Brand>
             <Link className="navbar-brand" to={`${(activeTab === "/home") ? '/' : '/'}`}> <img className="logo" src={homeData[0].logo} alt="logo"/></Link>
           </Navbar.Brand>
-          
+
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
 

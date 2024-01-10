@@ -12,7 +12,7 @@ function Footer() {
     return(
         <>
             <div className="footer">
-                <div className="container-fluid section">
+                <div className="container section">
                     <div className="row">
                         <div className="col">
                             <Link to="/"><img className="logo" src={logo} alt="logo"/></Link>

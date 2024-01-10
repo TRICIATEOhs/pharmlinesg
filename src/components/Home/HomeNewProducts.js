@@ -26,7 +26,7 @@ function HomeNewProducts() {
     return(
         <>
             <div className="container section new-products">
-                <div className="row secondarybg">
+                <div className="row tertiarybg">
                     <div className="col-12 col-lg-4 side-title">
                         <h3>Latest arrivals</h3>
                         <hr/>
