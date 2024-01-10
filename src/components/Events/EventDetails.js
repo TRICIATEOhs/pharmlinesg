@@ -58,11 +58,12 @@ function EventDetails() {
         <>
             <MainNavbar activeTab="/events"/>
 
-
-            <div className="page-title side-title">
-                <div className="mb-4"><Link to="/events"><ArrowLeft size="16"/>Back</Link></div>
-                <h3>{name}</h3>
-                <hr/>
+            <div className="page-title">
+                <div className="container side-title">
+                    <div className="mb-4"><Link to="/events"><ArrowLeft size="16"/>Back</Link></div>
+                    <h3>{name}</h3>
+                    <hr/>
+                </div>
             </div>
 
             <div className="container section eventDetails">
