@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom';
 
 import MainNavbar from '../MainNavbar.js';
-import ScrollButton from '../ScrollButton.js';
+// import ScrollButton from '../ScrollButton.js';
 
 function Products() {
 
@@ -13,7 +13,7 @@ function Products() {
             <div className="container section product">
                 <div className="row">
                     <Outlet />
-                    <ScrollButton /> 
+                    {/* <ScrollButton />  */}
                 </div>
             </div>
         </>
