@@ -8,48 +8,6 @@ import upcomingEvents from '../../data/upcomingEvents.js';
 
 function UpcomingEvents() {
 
-    var eventDetails = upcomingEvents[0].details;
-    var strArrayDetails = "";
-    if (
-        typeof eventDetails != "undefined" &&
-        eventDetails != null &&
-        eventDetails.length != null &&
-        eventDetails.length > 0
-    )
-    {
-        var i;
-        for(i = 0; i <eventDetails.length; i++) {
-            if (i === (eventDetails.length-1)) {
-                strArrayDetails += eventDetails[i];
-            } else {
-                strArrayDetails += eventDetails[i] + "||";
-            }
-            
-        }
-    }
-
-    var imageGallery = upcomingEvents[0].imageGallery;
-    var strArrayGallery = "";
-
-    if (
-        typeof imageGallery != "undefined" &&
-        imageGallery != null &&
-        imageGallery.length != null &&
-        imageGallery.length > 0
-    )
-    {
-        var u;
-        for(u = 0; u <imageGallery.length; u++) {
-            if (u === (imageGallery.length-1)) {
-                strArrayGallery += imageGallery[u];
-            } else {
-                strArrayGallery += imageGallery[u] + "||";
-            }
-            
-        }
-    }
-
-
     return(
         <>
 
@@ -60,20 +18,6 @@ function UpcomingEvents() {
                     <Link
                         to={{
                             pathname: `/events/${upcomingEvents[0].urlName}`
-                        }}
-                        state={{
-                            id: `${upcomingEvents[0].id}`,
-                            status: `${upcomingEvents[0].status}`,
-                            urlName: `${upcomingEvents[0].urlName}`,
-                            name: `${upcomingEvents[0].name}`,
-                            openToPublicTag: `${upcomingEvents[0].openToPublicTag}`,
-                            location: `${upcomingEvents[0].location}`,
-                            date: `${upcomingEvents[0].date}`,
-                            time: `${upcomingEvents[0].time}`,
-                            coverImage: `${upcomingEvents[0].coverImage}`,
-                            programmeImage: `${upcomingEvents[0].programmeImage}`,
-                            details: `${strArrayDetails}`,
-                            imageGallery: `${strArrayGallery}`
                         }}
                         >
                             <img src={upcomingEvents[0].coverImage} className="d-block mx-lg-auto img-fluid" alt={upcomingEvents[0].name}loading="lazy"/>
@@ -97,20 +41,6 @@ function UpcomingEvents() {
                             <Link
                             to={{
                                 pathname: `/events/${upcomingEvents[0].urlName}`
-                            }}
-                            state={{
-                                id: `${upcomingEvents[0].id}`,
-                                status: `${upcomingEvents[0].status}`,
-                                urlName: `${upcomingEvents[0].urlName}`,
-                                name: `${upcomingEvents[0].name}`,
-                                openToPublicTag: `${upcomingEvents[0].openToPublicTag}`,
-                                location: `${upcomingEvents[0].location}`,
-                                date: `${upcomingEvents[0].date}`,
-                                time: `${upcomingEvents[0].time}`,
-                                coverImage: `${upcomingEvents[0].coverImage}`,
-                                programmeImage: `${upcomingEvents[0].programmeImage}`,
-                                details: `${strArrayDetails}`,
-                                imageGallery: `${strArrayGallery}`
                             }}
                             >
                                 <Button variant="primary raise">More details</Button>

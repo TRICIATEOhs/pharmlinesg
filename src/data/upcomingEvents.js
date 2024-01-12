@@ -2,9 +2,9 @@
 const upcomingEvents = [
     {
         "_comment": "!!You may edit the text data, but do not remove any fields from this file. Simply change the status to 'active' (case-sensitive) to display the event details. To hide it from public, change the status to 'inactive' (case-sensitive)!!",
-        "status": "inactive",
+        "status": "active",
         "id":1, 
-        "urlName": "cme-talk-for-doctors-the-sporting-knee",
+        "urlName": "cme-talk-for-doctors-the-sporting-knee-new",
         "name":"CME Talk for Doctors: The Sporting Knee",
         "openToPublicTag": "false",
         "date": "01 Jan 2023",
