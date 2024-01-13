@@ -161,7 +161,7 @@ function EventDetails() {
                                 </div>
 
 
-                                <Row xs={1} md={6} className="g-4">
+                                <Row xs={3} md={6} className="g-4">
                                     {galleryList}
                                 </Row>
 
