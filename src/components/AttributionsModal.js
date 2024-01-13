@@ -29,6 +29,7 @@ const nataliyaWhite = 'https://www.pexels.com/photo/flat-lay-photo-of-alternativ
 const nataliyaGreen = 'https://www.pexels.com/photo/flat-lay-photo-of-alternative-medicines-7615574/';
 const rdne = 'https://www.pexels.com/photo/elderly-couple-holding-bouquet-of-flowers-while-holding-hands-5637572/';
 const shotpot = 'https://www.pexels.com/photo/mom-and-dad-having-fun-playing-together-with-their-daughter-7705884/';
+const pabloStanley = 'https://humaaans.com/';
 
 function AttributionsModal() {
   const [show, setShow] = useState(false);
@@ -111,6 +112,13 @@ function AttributionsModal() {
             <img className="mini-icon" src={facebookicon} alt="surgical icons"/> Facebook icons created by
             <Link title="surgical icons" to={fbFreepik} target="_blank" rel="noreferrer noopener"> freepik</Link> 
           </p>
+
+          <p><b>Humaaans</b></p>
+          <p>
+            Page not found illustrations by 
+            <Link title="humaaans" to={pabloStanley} target="_blank" rel="noreferrer noopener"> Pablo Stanley</Link>
+          </p>
+
         </Modal.Body>
         <Modal.Footer>
           <Button variant="primary" onClick={handleClose}>Close</Button>
