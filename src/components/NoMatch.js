@@ -20,7 +20,7 @@ function NoMatch () {
 
                     <div className="col-sm-12 col-lg-6 py-5">
                         <h1>Whoops! Page not found</h1>
-                        <p>It looks like the page you're trying to find does not exist. <Link to="/contact" target="_blank" rel="noreferrer noopener">Contact us</Link> to let us know what you're trying to find and we will get back to you quickly!</p>
+                        <p>It looks like the page you're trying to find does not exist. <Link to="/contact">Contact us</Link> to let us know what you're trying to find and we will get back to you quickly!</p>
 
                         <Link
                             to={{
