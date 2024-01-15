@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pharmlinesg/static/css/main.b359e34e.css",
-    "main.js": "/pharmlinesg/static/js/main.84f3de8d.js",
+    "main.css": "/pharmlinesg/static/css/main.ffadadf3.css",
+    "main.js": "/pharmlinesg/static/js/main.4a629b94.js",
     "static/media/img1.jpg": "/pharmlinesg/static/media/img1.eb7dc3b3c2a866477fe9.jpg",
     "static/media/schedule.jpg": "/pharmlinesg/static/media/schedule.a829f39cd876477a4af8.jpg",
     "static/media/teamphoto.jpg": "/pharmlinesg/static/media/teamphoto.f7ea9c5c4fffb4e4629c.jpg",
@@ -90,11 +90,11 @@
     "static/media/go-on.jpg": "/pharmlinesg/static/media/go-on.fcf896394d94f2e7c714.jpg",
     "static/media/securline.jpg": "/pharmlinesg/static/media/securline.6395e681cb7ed5282111.jpg",
     "index.html": "/pharmlinesg/index.html",
-    "main.b359e34e.css.map": "/pharmlinesg/static/css/main.b359e34e.css.map",
-    "main.84f3de8d.js.map": "/pharmlinesg/static/js/main.84f3de8d.js.map"
+    "main.ffadadf3.css.map": "/pharmlinesg/static/css/main.ffadadf3.css.map",
+    "main.4a629b94.js.map": "/pharmlinesg/static/js/main.4a629b94.js.map"
   },
   "entrypoints": [
-    "static/css/main.b359e34e.css",
-    "static/js/main.84f3de8d.js"
+    "static/css/main.ffadadf3.css",
+    "static/js/main.4a629b94.js"
   ]
 }
