@@ -1,97 +1,86 @@
-import arrowicon from '../../images/products/arrow.png';
-import card1 from '../../images/products/illness-ear-nose-throat-preparations/dymista-nasal-spray.jpg';
-import card2 from '../../images/products/supplements-brain-boosters/cavinton.jpg';
-import card3 from '../../images/products/dermatological/elidel-cream.jpg';
-import card4 from '../../images/products/illness-urinary-incontinence/spasmolyt.png';
-import card5 from '../../images/products/supplements-heart-health/tocoq10-coenzyme.png';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import { Link } from "react-router-dom";
 
-const productContainers = [...document.querySelectorAll('.product-container')];
-const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
-const preBtn = [...document.querySelectorAll('.pre-btn')];
-
-productContainers.forEach((item, i) => {
-    let containerDimensions = item.getBoundingClientRect();
-    let containerWidth = containerDimensions.width;
-
-    nxtBtn[i].addEventListener('click', () => {
-        item.scrollLeft += containerWidth;
-    })
-
-    preBtn[i].addEventListener('click', () => {
-        item.scrollLeft -= containerWidth;
-    })
-})
+import dataJson from "../../data/homeNewProducts.js";
 
 function HomeNewProducts() {
+
+    const hasActiveStatus = dataJson.find((item) => (item.status).toLowerCase() === "active");
+    let displaySection = false;
+    if(hasActiveStatus !== undefined) {
+        displaySection = true;
+    }
+
+    const jsonList = dataJson && dataJson.map( item => {
+
+        return(
+            <>
+                {
+                    (item.status).toLowerCase() === "active"?
+                    <div key={item.id}>
+                        <Col>
+                            <div className="product-card">
+                                <div className="product-image">
+                                    <Link
+                                    to={{
+                                        pathname: `/products/${item.urlName}`
+                                    }}>
+                                        <img src={item.image} className="product-thumb" alt=""/>
+                                    </Link>
+                                </div>
+                                <div className="product-info">
+                                <Link
+                                    to={{
+                                        pathname: `/products/${item.urlName}`
+                                    }}>
+                                        <p className="product-brand">{item.productName}</p>
+                                    </Link>
+                                    
+                                    <p className="product-category">{item.mainCategory} / {item.productCategory}</p>
+                                </div>
+                            </div>
+
+                        </Col>
+
+                    </div>
+                    :
+                    ""
+                }
+            </>
+        );
+    });
+
+
     return(
         <>
-            <div className="container section new-products">
-                <div className="row tertiarybg">
-                    <div className="col-12 col-lg-4 side-title">
-                        <h3>Latest arrivals</h3>
-                        <hr/>
-                        <p>Elevate your healthcare offerings with cutting-edge medications and treatments just in! Our new products uphold the highest quality and effectiveness standards.</p>
-                        <p>Stay ahead in healthcare with our carefully curated products. </p>
-                    </div>
-                    <div className="col-12 col-lg-8 product-div">
-                        <button className="pre-btn"><img src={arrowicon} alt=""/></button>
-                        <button className="nxt-btn"><img src={arrowicon}  alt=""/></button>
+            {
+                displaySection?
 
-                        <div className="product-container">
-                            <div className="product-card">
-                                <div className="product-image">
-                                    <img src={card1} className="product-thumb" alt=""/>
-                                </div>
-                                <div className="product-info">
-                                    <p className="product-brand">Dymista nasal spray</p>
-                                    <p className="product-category">Illness / Ear, nose & throat</p>
+                    <div className="container section new-products">
+                        <div className="row tertiarybg">
+                            <div className="col-12 col-lg-4 side-title">
+                                <h3>Latest arrivals</h3>
+                                <hr/>
+                                <p>Elevate your healthcare offerings with cutting-edge medications and treatments just in! Our new products uphold the highest quality and effectiveness standards.</p>
+                                <p>Stay ahead in healthcare with our carefully curated products. </p>
+                            </div>
+                            <div className="col-12 col-lg-8">
+
+                                <div className="product-container">
+
+                                    <Row xs={2} md={3} lg={3} className="g-4">
+                                        {jsonList}
+                                    </Row>
+
                                 </div>
                             </div>
-
-                            <div className="product-card">
-                                <div className="product-image">
-                                    <img src={card2} className="product-thumb" alt=""/>
-                                </div>
-                                <div className="product-info">
-                                    <p className="product-brand">Cavinton vinpocetiney</p>
-                                    <p className="product-category">Supplements / Brain booster</p>
-                                </div>
-                            </div>
-
-                            <div className="product-card">
-                                <div className="product-image">
-                                    <img src={card3} className="product-thumb" alt=""/>
-                                </div>
-                                <div className="product-info">
-                                    <p className="product-brand">Elidel Cream</p>
-                                    <p className="product-category">Dermatological</p>
-                                </div>
-                            </div>
-
-                            <div className="product-card">
-                                <div className="product-image">
-                                    <img src={card4} className="product-thumb" alt=""/>
-                                </div>
-                                <div className="product-info">
-                                    <p className="product-brand">Spasmolyt</p>
-                                    <p className="product-category">Urinary incontinence</p>
-                                </div>
-                            </div>
-
-                            <div className="product-card">
-                                <div className="product-image">
-                                    <img src={card5} className="product-thumb" alt=""/>
-                                </div>
-                                <div className="product-info">
-                                    <p className="product-brand">TocoQ10 Coenzyme Q10 (Reduced Form)</p>
-                                    <p className="product-category">Heart health</p>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
-                </div>
-            </div>
+                :
+                ""
+            }
+
         </>
     );
 }

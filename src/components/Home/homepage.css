@@ -111,38 +111,21 @@
 /*New Products*/
 
 
-.product-div {
-    position: relative;
-    overflow: hidden;
-    padding: 20px;
-    background-color: none;
-}
-  
 .product-container {
-    padding: 0 6vw;
-    display: flex;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    background-color: none;
-}
-
-.product-container::-webkit-scrollbar {
-    display: none;
+    width: 100%;
+    margin: auto;
 }
 
 .product-card {
-    flex: 0 0 auto;
-    width: 200px;
-    height: 300px;
-    margin-right: 40px;
     text-align:center;
 }
 
 .product-image {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
+    object-fit: cover;
+}
+
+.product-image img {
+    border-radius: 8px;
 }
 
 .product-thumb {
@@ -157,8 +140,7 @@
 }
   
 .product-brand {
-    font-weight: 500;
-    margin-bottom:4px;
+    margin-bottom: 8px;
 }
 
 .product-category {
